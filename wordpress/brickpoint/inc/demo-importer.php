@@ -3,7 +3,8 @@
  * BrickPoint One-Click Demo Importer
  *
  * Implements reliable, idempotent (update/skip) import logic with offline media
- * fallback, Elementor template imports, menu assignment, and front-page setup.
+ * fallback, authentic Elementor page data assignment, Elementor Pro Theme Builder
+ * conditions, menu assignment, and front-page setup.
  *
  * @package BrickPoint
  */
@@ -20,7 +21,7 @@ function brickpoint_demo_importer_page() {
   <div class="wrap bp-importer-admin" style="max-width:960px;margin-top:20px;">
     <h1><?php esc_html_e( 'BrickPoint Demo Importer', 'brickpoint' ); ?></h1>
     <p class="description" style="font-size:15px;margin-bottom:20px;">
-      <?php esc_html_e( 'Import complete demo data: 17 production pages, 12 products, 12 categories, 6 videos, 6 project references, 4 bhatta locations, 4 blog guides, 24 Elementor templates, menus, and media library attachments.', 'brickpoint' ); ?>
+      <?php esc_html_e( 'Import complete demo data: 17 production pages with native Elementor structures, 12 products, 12 categories, 6 videos, 6 project references, 4 bhatta locations, 4 blog guides, 26 Elementor templates, menus, and media library attachments.', 'brickpoint' ); ?>
     </p>
 
     <div class="bp-box" style="background:#fff;padding:24px;border:1px solid #ccd0d4;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.05);">
@@ -28,12 +29,13 @@ function brickpoint_demo_importer_page() {
       <p><?php esc_html_e( 'The importer uses bundled high-fidelity offline media assets — no external downloads or internet connection needed. Existing posts and pages are updated safely without creating duplicates.', 'brickpoint' ); ?></p>
 
       <ul style="list-style:disc;margin-left:20px;line-height:1.8;color:#444;">
+        <li><strong>True Elementor Homepage:</strong> All 9 original sections (Hero, Trust Intro, Categories, SS7 Showcase, Featured Products, Videos, Projects, Who We Serve, Quotation CTA) imported as fully editable Elementor widgets and containers.</li>
         <li><strong>17 Complete Pages:</strong> Home, About, SS7 Bricks, Construction Materials, For Contractors, For Builders, For Companies, Products, Categories, Videos, Projects, Locations, Blog, Contact, Privacy, Terms, Sample.</li>
         <li><strong>12 Custom Products:</strong> Full pricing, specs, features, SKU, units, and WhatsApp ordering links.</li>
         <li><strong>12 Product Categories:</strong> Complete with background thumbnails and inquiry messages.</li>
         <li><strong>6 Videos & 6 Projects:</strong> Embedded MP4 players and reference case cards.</li>
         <li><strong>4 Production Units / Locations:</strong> Complete with addresses, phone numbers, and Google Maps links.</li>
-        <li><strong>24 Elementor Templates:</strong> Headers, Footers, Single Product, Single Video, Single Project, Archives, and Page Sections.</li>
+        <li><strong>26 Elementor Templates:</strong> Headers, Footers, Single Product, Single Video, Single Project, Archives, and Modular Sections.</li>
         <li><strong>Navigation Menus:</strong> Primary, Mobile, and Footer menus assigned automatically.</li>
         <li><strong>Front Page Setup:</strong> Home set as Static Front Page and Blog set as Posts page.</li>
       </ul>
@@ -265,15 +267,15 @@ function brickpoint_run_demo_import_step( $step = 'all' ) {
     }
   }
 
-  // STEP 8: IMPORT 17 COMPLETE SITE PAGES
-  $log[] = '8. Importing 17 complete site pages…';
+  // STEP 8: IMPORT 17 COMPLETE SITE PAGES WITH TRUE ELEMENTOR DATA
+  $log[] = '8. Importing 17 complete site pages with authentic Elementor data structures…';
   $pages_created = brickpoint_create_site_pages( $attachments );
-  $log[] = '17 pages generated and verified.';
+  $log[] = '17 pages generated and populated with Elementor content.';
 
-  // STEP 9: IMPORT 24 ELEMENTOR JSON TEMPLATES
-  $log[] = '9. Importing 24 Elementor JSON templates…';
+  // STEP 9: IMPORT 26 ELEMENTOR JSON TEMPLATES INTO ELEMENTOR LIBRARY
+  $log[] = '9. Importing 26 Elementor JSON templates and registering Theme Builder conditions…';
   brickpoint_import_elementor_templates();
-  $log[] = 'Elementor templates imported into elementor_library.';
+  $log[] = 'Theme Builder templates imported into elementor_library.';
 
   // STEP 10: ASSIGN MENUS & THEME MODS
   $log[] = '10. Building Navigation Menus and assigning locations…';
@@ -368,78 +370,109 @@ function brickpoint_import_bundled_media() {
 }
 
 /**
- * Create 17 Full Site Pages
+ * Helper: Load Elementor JSON Template Data
+ */
+function brickpoint_load_elementor_template_json( $filename ) {
+  $tpl_path = BRICKPOINT_DIR . '/elementor-templates/' . $filename;
+  if ( file_exists( $tpl_path ) ) {
+    $raw = file_get_contents( $tpl_path );
+    $data = json_decode( $raw, true );
+    if ( isset( $data['content'] ) ) {
+      return wp_json_encode( $data['content'] );
+    }
+  }
+  return '';
+}
+
+/**
+ * Create 17 Full Site Pages with Elementor structures
  */
 function brickpoint_create_site_pages( $attachments = array() ) {
   $pages = array(
     'home' => array(
-      'title'   => 'Home',
-      'content' => '', // Loaded via front-page.php or Elementor template
-      'tpl'     => '',
+      'title'         => 'Home',
+      'content'       => '',
+      'elementor_tpl' => 'page-home.json',
     ),
     'about' => array(
-      'title'   => 'About Us',
-      'content' => '<h2>A Construction Materials Partner You Can Build On</h2><p>BrickPoint represents the unified manufacturing and distribution operations of Masha Allah Bricks Company, Fine Bricks Company, and SS7 Bricks. With three active bhatta locations and comprehensive materials sourcing, we provide uncompromised structural reliability across Punjab.</p><h3>Our Leadership</h3><p><strong>CEO:</strong> Syed Iftikhar Haider<br /><strong>Sales & Operations:</strong> Qasim Iqbal</p><h3>Our Mission</h3><p>To eliminate substandard masonry materials and broken delivery promises by providing contractors, builders, and property developers with certified brick grades, factory-direct cement, pure copper cabling, and high-yield steel.</p>',
+      'title'         => 'About Us',
+      'content'       => '',
+      'elementor_tpl' => 'page-about.json',
     ),
     'ss7-bricks' => array(
-      'title'   => 'SS7 Bricks',
-      'content' => '<h2>SS7 Bricks — The Benchmark of Brick Engineering</h2><p>Engineered for unmatched crushing strength, sharp rectangular geometry, and low moisture absorption, SS7 is our flagship burnt-clay brick brand. Every chamber is monitored with electronic pyrometers to ensure complete vitrification and uniform deep-red coloration.</p><p><a href="https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20I%20need%20a%20quotation%20for%20SS7%20Bricks." class="btn-whatsapp">Order SS7 on WhatsApp</a></p>',
+      'title'         => 'SS7 Bricks',
+      'content'       => '',
+      'elementor_tpl' => 'page-ss7-bricks.json',
     ),
     'construction-materials' => array(
-      'title'   => 'Construction Materials',
-      'content' => '<h2>Complete Material Range for Grey Structure & Finishes</h2><p>BrickPoint is your single-source supplier from foundation footings to rooftop screeds. We supply Ordinary Portland Cement, washed Margalla aggregates, screened Chenab river sand, ASTM A615 Grade 60 steel rebar, UPVC drainage pipes, pure copper electrical cables, and waterproofing chemical admixtures.</p>',
+      'title'         => 'Construction Materials',
+      'content'       => '',
+      'elementor_tpl' => 'page-materials.json',
     ),
     'for-contractors' => array(
-      'title'   => 'For Contractors',
-      'content' => '<h2>Built for Commercial & General Contractors</h2><p>Contractors require consistent delivery schedules, bulk volume price advantages, and guaranteed batch quality. We provide scheduled phased site drop-offs, crane unloading coordination, and unified GST invoices across all 12 material categories.</p>',
+      'title'         => 'For Contractors',
+      'content'       => '',
+      'elementor_tpl' => 'page-for-contractors.json',
     ),
     'for-builders' => array(
-      'title'   => 'For Builders',
-      'content' => '<h2>Dependable Sourcing for Housing & Residential Builders</h2><p>Ensure seamless wall lines and zero mortar wastage with our uniform Awwal and SS7 bricks. We work closely with residential builders across DHA, Bahria Town, Lake City, and LDA City to supply top-tier grey-structure packages.</p>',
+      'title'         => 'For Builders',
+      'content'       => '',
+      'elementor_tpl' => 'page-for-builders.json',
     ),
     'for-companies' => array(
-      'title'   => 'For Construction Companies',
-      'content' => '<h2>Institutional Supply for Infrastructure & Corporate Developers</h2><p>For large-scale construction enterprises, BrickPoint offers high-capacity production reserves across our three kiln units, certified lab test reports, dedicated procurement account managers, and formal contract pricing.</p>',
+      'title'         => 'For Construction Companies',
+      'content'       => '',
+      'elementor_tpl' => 'page-for-companies.json',
     ),
     'products' => array(
-      'title'   => 'Products',
-      'content' => '<p>Browse our complete catalogue of premium bricks and construction materials. All prices listed with direct WhatsApp ordering.</p>',
+      'title'         => 'Products',
+      'content'       => '<p>Browse our complete catalogue of premium bricks and construction materials. All prices listed with direct WhatsApp ordering.</p>',
+      'elementor_tpl' => 'archive-product.json',
     ),
     'categories' => array(
-      'title'   => 'Categories',
-      'content' => '<p>Explore our 12 specialized construction material categories.</p>',
+      'title'         => 'Categories',
+      'content'       => '<p>Explore our 12 specialized construction material categories.</p>',
+      'elementor_tpl' => 'section-categories.json',
     ),
     'videos' => array(
-      'title'   => 'Videos',
-      'content' => '<p>Watch our brick manufacturing plants, kiln firing chambers, quality testing field checks, and project walkthroughs.</p>',
+      'title'         => 'Videos',
+      'content'       => '<p>Watch our brick manufacturing plants, kiln firing chambers, quality testing field checks, and project walkthroughs.</p>',
+      'elementor_tpl' => 'archive-video.json',
     ),
     'projects' => array(
-      'title'   => 'Projects',
-      'content' => '<p>Construction references and project inspiration visuals from premier Lahore housing developments.</p>',
+      'title'         => 'Projects',
+      'content'       => '<p>Construction references and project inspiration visuals from premier Lahore housing developments.</p>',
+      'elementor_tpl' => 'archive-project.json',
     ),
     'locations' => array(
-      'title'   => 'Locations',
-      'content' => '<p>Our three manufacturing kiln units and central corporate coordination hub.</p>',
+      'title'         => 'Locations',
+      'content'       => '<p>Our three manufacturing kiln units and central corporate coordination hub.</p>',
+      'elementor_tpl' => '',
     ),
     'blog' => array(
-      'title'   => 'Blog',
-      'content' => '<p>Field guides, quantity estimation checklists, technical masonry standards, and construction advice.</p>',
+      'title'         => 'Blog',
+      'content'       => '<p>Field guides, quantity estimation checklists, technical masonry standards, and construction advice.</p>',
+      'elementor_tpl' => 'archive-post.json',
     ),
     'contact' => array(
-      'title'   => 'Contact Us',
-      'content' => '<h2>Get in Touch with BrickPoint</h2><p>Send your bill of quantities (BOQ) or material list directly to our sales team for fast quotation and delivery scheduling.</p><p><strong>Phone:</strong> 0315 2850818<br /><strong>Email:</strong> info@brickpoint.pk<br /><strong>Office:</strong> DHA / Ring Road Interchange, Lahore, Punjab, Pakistan</p>',
+      'title'         => 'Contact Us',
+      'content'       => '',
+      'elementor_tpl' => 'page-contact.json',
     ),
     'privacy' => array(
-      'title'   => 'Privacy Policy',
-      'content' => '<h2>Privacy Policy</h2><p>BrickPoint respects your privacy. Information submitted through our contact forms or WhatsApp communication is used solely to provide price quotations, arrange product deliveries, and service customer inquiries.</p>',
+      'title'         => 'Privacy Policy',
+      'content'       => '',
+      'elementor_tpl' => 'page-privacy.json',
     ),
     'terms' => array(
-      'title'   => 'Terms & Conditions',
-      'content' => '<h2>Terms & Conditions</h2><p>Material deliveries are subject to site access, offloading availability, and prevailing raw material market rates. Quoted rates remain valid for the duration specified on formal BrickPoint quotation sheets.</p>',
+      'title'         => 'Terms & Conditions',
+      'content'       => '',
+      'elementor_tpl' => 'page-terms.json',
     ),
     'sample-page' => array(
-      'title'   => 'Sample Page',
-      'content' => '<p>This is an example page created by the BrickPoint theme setup.</p>',
+      'title'         => 'Sample Page',
+      'content'       => '<p>This is an example page created by the BrickPoint theme setup.</p>',
+      'elementor_tpl' => '',
     ),
   );
 
@@ -462,6 +495,17 @@ function brickpoint_create_site_pages( $attachments = array() ) {
 
     if ( $pid && ! is_wp_error( $pid ) ) {
       $page_ids[ $slug ] = $pid;
+
+      // Assign authentic Elementor Data to the page!
+      if ( ! empty( $pconf['elementor_tpl'] ) ) {
+        $elementor_data = brickpoint_load_elementor_template_json( $pconf['elementor_tpl'] );
+        if ( ! empty( $elementor_data ) ) {
+          update_post_meta( $pid, '_elementor_edit_mode', 'builder' );
+          update_post_meta( $pid, '_elementor_template_type', 'wp-page' );
+          update_post_meta( $pid, '_elementor_version', '3.20.0' );
+          update_post_meta( $pid, '_elementor_data', $elementor_data );
+        }
+      }
     }
   }
 
@@ -469,7 +513,7 @@ function brickpoint_create_site_pages( $attachments = array() ) {
 }
 
 /**
- * Import 24 Elementor JSON templates into elementor_library
+ * Import 26 Elementor JSON templates into elementor_library
  */
 function brickpoint_import_elementor_templates() {
   $tpl_dir = BRICKPOINT_DIR . '/elementor-templates/';
@@ -478,6 +522,9 @@ function brickpoint_import_elementor_templates() {
   }
 
   $files = scandir( $tpl_dir );
+  $header_id = 0;
+  $footer_id = 0;
+
   foreach ( $files as $f ) {
     if ( pathinfo( $f, PATHINFO_EXTENSION ) !== 'json' ) continue;
     $raw = file_get_contents( $tpl_dir . $f );
@@ -506,10 +553,30 @@ function brickpoint_import_elementor_templates() {
     if ( $tid && ! is_wp_error( $tid ) ) {
       update_post_meta( $tid, '_elementor_edit_mode', 'builder' );
       update_post_meta( $tid, '_elementor_template_type', $type );
+      update_post_meta( $tid, '_elementor_version', '3.20.0' );
       $content_json = isset( $json['content'] ) ? wp_json_encode( $json['content'] ) : '[]';
       update_post_meta( $tid, '_elementor_data', $content_json );
+
+      if ( $type === 'header' ) {
+        $header_id = $tid;
+        update_post_meta( $tid, '_elementor_conditions', array( 'include/general' ) );
+      }
+      if ( $type === 'footer' ) {
+        $footer_id = $tid;
+        update_post_meta( $tid, '_elementor_conditions', array( 'include/general' ) );
+      }
     }
   }
+
+  // Register Theme Builder conditions in options
+  $conditions = get_option( 'elementor_pro_theme_builder_conditions', array() );
+  if ( $header_id ) {
+    $conditions['header'] = array( $header_id => array( 'include/general' ) );
+  }
+  if ( $footer_id ) {
+    $conditions['footer'] = array( $footer_id => array( 'include/general' ) );
+  }
+  update_option( 'elementor_pro_theme_builder_conditions', $conditions );
 }
 
 /**
@@ -525,7 +592,6 @@ function brickpoint_setup_demo_menus() {
   }
 
   if ( $menu_id && ! is_wp_error( $menu_id ) ) {
-    // Only populate if empty
     $items = wp_get_nav_menu_items( $menu_id );
     if ( empty( $items ) ) {
       $menu_links = array(
@@ -552,7 +618,6 @@ function brickpoint_setup_demo_menus() {
       }
     }
 
-    // Assign to theme location
     $locations = get_theme_mod( 'nav_menu_locations', array() );
     $locations['primary'] = $menu_id;
     $locations['mobile']  = $menu_id;

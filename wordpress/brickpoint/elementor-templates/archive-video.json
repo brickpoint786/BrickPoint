@@ -1,43 +1,64 @@
 {
-  "title": "Videos Archive",
+  "title": "Videos Archive Template",
   "type": "archive",
   "version": "0.4",
   "content": [
     {
-      "id": "sec_c625245a",
+      "id": "d370bbd",
       "elType": "section",
+      "isInner": false,
       "settings": {
         "layout": "boxed",
-        "css_classes": ""
+        "_css_classes": "bp-section"
       },
       "elements": [
         {
-          "id": "col_7d316b60",
+          "id": "c38f639",
           "elType": "column",
+          "isInner": false,
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "wid_771eb5f1",
+              "id": "6afce5b",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Inside BrickPoint (Videos)",
-                "header_size": "h1"
-              }
+                "title": "Video Library",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
             },
             {
-              "id": "wid_087d2c58",
+              "id": "55ac53c",
               "elType": "widget",
-              "widgetType": "bp_video_showcase",
-              "settings": {}
+              "widgetType": "heading",
+              "settings": {
+                "title": "Inside BrickPoint",
+                "header_size": "h1",
+                "align": "center",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "d7d2590",
+              "elType": "widget",
+              "widgetType": "bp_video_grid",
+              "settings": {
+                "count": 6,
+                "columns": "3",
+                "show_duration": "yes",
+                "show_badge": "yes"
+              },
+              "elements": []
             }
-          ],
-          "isInner": false
+          ]
         }
-      ],
-      "isInner": false
+      ]
     }
   ]
 }

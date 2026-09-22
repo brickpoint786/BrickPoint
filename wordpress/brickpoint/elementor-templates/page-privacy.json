@@ -1,0 +1,48 @@
+{
+  "title": "Privacy Policy",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "2ab4681",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-container"
+      },
+      "elements": [
+        {
+          "id": "1c917f3",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "dfb638a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Privacy Policy",
+                "header_size": "h1",
+                "_css_classes": "font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "557ec79",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>BrickPoint Pakistan respects your privacy. Information submitted through our contact forms or WhatsApp messaging is used exclusively to facilitate material quotes, arrange logistics, and coordinate order delivery. We do not sell or share personal customer information with external third parties.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

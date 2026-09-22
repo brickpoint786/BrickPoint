@@ -1,37 +1,90 @@
 {
-  "title": "Featured Products Section",
+  "title": "Modular Featured Products Section",
   "type": "section",
   "version": "0.4",
   "content": [
     {
-      "id": "sec_7374b6ea",
+      "id": "a1ed5fb",
       "elType": "section",
+      "isInner": false,
       "settings": {
         "layout": "boxed",
-        "css_classes": ""
+        "_css_classes": "bp-section"
       },
       "elements": [
         {
-          "id": "col_c7b270ff",
+          "id": "1c58ffa",
           "elType": "column",
+          "isInner": false,
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "wid_8e511bf7",
+              "id": "798c076",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Featured Products",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "c3ea93f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Materials contractors ask for by name",
+                "header_size": "h2",
+                "align": "center",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "22e1ad6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text\" style=\"text-align:center;\">Live from the product catalogue \u2014 prices, units and WhatsApp ordering on every card.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "063d8aa",
               "elType": "widget",
               "widgetType": "bp_product_grid",
               "settings": {
                 "count": 8,
-                "columns": "4"
-              }
+                "columns": "4",
+                "featured_only": "yes",
+                "show_price": "yes",
+                "show_whatsapp": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "3dca3db",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Browse All Products \u2192",
+                "link": {
+                  "url": "/products",
+                  "is_external": false
+                },
+                "align": "center",
+                "size": "md",
+                "_css_classes": "btn-brick"
+              },
+              "elements": []
             }
-          ],
-          "isInner": false
+          ]
         }
-      ],
-      "isInner": false
+      ]
     }
   ]
 }

@@ -4,55 +4,247 @@
   "version": "0.4",
   "content": [
     {
-      "id": "sec_68f8bf5a",
+      "id": "03a67f6",
       "elType": "section",
+      "isInner": false,
       "settings": {
         "layout": "boxed",
-        "css_classes": "bp-footer"
+        "_css_classes": "bp-footer bp-dark"
       },
       "elements": [
         {
-          "id": "col_31be2035",
+          "id": "4e159bc",
           "elType": "column",
+          "isInner": false,
           "settings": {
-            "_column_size": 50
+            "_column_size": 30,
+            "_css_classes": "bp-footer-col"
           },
           "elements": [
             {
-              "id": "wid_96c36ae4",
+              "id": "d62ecc6",
               "elType": "widget",
               "widgetType": "bp_footer_logo_widget",
-              "settings": {}
+              "settings": {
+                "desktop_height": 52,
+                "mobile_height": 42
+              },
+              "elements": []
             },
             {
-              "id": "wid_65d05c13",
+              "id": "51cbec2",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Premium bricks and reliable construction materials for homes, commercial developments, and large-scale building projects.</p>"
-              }
+                "editor": "<p class=\"bp-footer-desc\">Premium bricks and reliable construction materials for homes, commercial developments, and large-scale building projects.</p><p>\ud83d\udcde 0315 2850818<br />\u2709 info@brickpoint.pk<br />\ud83d\udccd Lahore, Punjab, Pakistan</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "3e5c091",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"bp-social\"><a href=\"https://facebook.com/brickpoint.pk/\" target=\"_blank\">f</a><a href=\"https://instagram.com/brickpoint.pk/\" target=\"_blank\">in</a><a href=\"https://x.com/BrickPointPK\" target=\"_blank\">x</a><a href=\"https://tiktok.com/@brickpoint.pk/\" target=\"_blank\">t</a></div>"
+              },
+              "elements": []
             }
-          ],
-          "isInner": false
+          ]
         },
         {
-          "id": "col_3ffe9344",
+          "id": "8630b8a",
           "elType": "column",
+          "isInner": false,
           "settings": {
-            "_column_size": 50
+            "_column_size": 22,
+            "_css_classes": "bp-footer-col"
           },
           "elements": [
             {
-              "id": "wid_f57e516c",
+              "id": "3262a28",
               "elType": "widget",
-              "widgetType": "bp_whatsapp_cta",
-              "settings": {}
+              "widgetType": "heading",
+              "settings": {
+                "title": "Products",
+                "header_size": "h4",
+                "_css_classes": "bp-footer-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "0cadf78",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul class=\"bp-footer-links\"><li><a href=\"/ss7-bricks\">SS7 Bricks</a></li><li><a href=\"/products\">All Products</a></li><li><a href=\"/categories\">Product Categories</a></li><li><a href=\"/construction-materials\">Construction Materials</a></li><li><a href=\"/videos\">Product Videos</a></li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "799f95c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Company",
+                "header_size": "h4",
+                "_css_classes": "bp-footer-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "d2a142b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul class=\"bp-footer-links\"><li><a href=\"/about\">About Us</a></li><li><a href=\"/projects\">Projects</a></li><li><a href=\"/blog\">Blog</a></li><li><a href=\"/locations\">Locations</a></li></ul>"
+              },
+              "elements": []
             }
-          ],
-          "isInner": false
+          ]
+        },
+        {
+          "id": "bed5bbf",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 22,
+            "_css_classes": "bp-footer-col"
+          },
+          "elements": [
+            {
+              "id": "a56e00c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Who We Serve",
+                "header_size": "h4",
+                "_css_classes": "bp-footer-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "aa66d0b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul class=\"bp-footer-links\"><li><a href=\"/for-contractors\">For Contractors</a></li><li><a href=\"/for-builders\">For Builders</a></li><li><a href=\"/for-companies\">For Construction Companies</a></li><li><a href=\"/contact\">Request Quotation</a></li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "0d99b2e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Units",
+                "header_size": "h4",
+                "_css_classes": "bp-footer-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "bc4d86d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul class=\"bp-footer-links bp-dim-links\"><li>Masha Allah Bricks Company</li><li>Fine Bricks Company</li><li>SS7 Bricks</li><li>CEO: Syed Iftikhar Haider</li><li>Sales: Qasim Iqbal</li></ul>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "33afb44",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 26,
+            "_css_classes": "bp-footer-col"
+          },
+          "elements": [
+            {
+              "id": "9a8badb",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Get a Quotation",
+                "header_size": "h4",
+                "_css_classes": "bp-footer-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "235512b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-footer-desc\">Send your material list on WhatsApp and get availability, delivery details, and final quotation.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "e0702e4",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Chat on WhatsApp",
+                "link": {
+                  "url": "https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20I%20need%20a%20quotation.",
+                  "is_external": true
+                },
+                "size": "md",
+                "_css_classes": "btn-whatsapp btn-block"
+              },
+              "elements": []
+            },
+            {
+              "id": "21e9e3c",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Contact Form",
+                "link": {
+                  "url": "/contact",
+                  "is_external": false
+                },
+                "size": "sm",
+                "_css_classes": "btn-ghost btn-block"
+              },
+              "elements": []
+            }
+          ]
         }
-      ],
-      "isInner": false
+      ]
+    },
+    {
+      "id": "430cb11",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-footer-bottom"
+      },
+      "elements": [
+        {
+          "id": "e4ee749",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "815f7f1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class=\"bp-footer-bottom-inner\"><p>\u00a9 2026 BrickPoint. All rights reserved.</p><div class=\"bp-footer-legal\"><a href=\"/privacy\">Privacy Policy</a> &bull; <a href=\"/terms\">Terms & Conditions</a> &bull; <a href=\"/locations\">Locations</a></div></div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

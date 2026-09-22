@@ -1,188 +1,121 @@
-# BrickPoint — Premium Construction Materials & Brick Manufacturing WordPress Theme
+# BrickPoint — True Elementor-Native WordPress Theme (v2)
 
-[![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)](https://brickpoint.pk/)
+[![Version](https://img.shields.io/badge/version-2.0.0-orange.svg)](https://brickpoint.pk/)
 [![WordPress](https://img.shields.io/badge/WordPress-6.0%2B-blue.svg)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple.svg)](https://php.net/)
 [![Elementor](https://img.shields.io/badge/Elementor-Free%20%26%20Pro-red.svg)](https://elementor.com/)
 [![License](https://img.shields.io/badge/License-GPLv2%2B-green.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
 
-> **BrickPoint** is a high-performance, production-ready WordPress theme built for brick manufacturers, building suppliers, and construction material enterprises. Engineered with native **Elementor Free** and **Elementor Pro Theme Builder** support, a built-in **One-Click Demo Importer** with bundled offline media, and direct **WhatsApp Ordering** on all products without WooCommerce overhead.
+> **BrickPoint** is a high-performance, 100% Elementor-native WordPress theme faithfully converted from the original BrickPoint website. Every section on the Homepage, About, SS7 Bricks, Services, Contact, Header, and Footer is constructed using **real, granular Elementor elements** (Headings, Text Editors, Buttons, Containers/Columns, Images, and Videos) that can be visually edited, duplicated, deleted, or reordered directly in the Elementor visual panel.
 
 ---
 
 ## Deliverables & Quick Links
 
-- **Installable Theme Zip:** [`brickpoint-wordpress-elementor-final.zip`](./brickpoint-wordpress-elementor-final.zip) (0.54 MB, clean single-level archive containing `brickpoint/`)
+- **Final Installable Theme Package (v2):** [`brickpoint-wordpress-elementor-final-v2.zip`](./brickpoint-wordpress-elementor-final-v2.zip) (578 KB, single-level theme archive containing `brickpoint/`)
 - **Theme Source Directory:** [`wordpress/brickpoint/`](./wordpress/brickpoint/)
-- **Comprehensive Documentation:** [`DOCUMENTATION.md`](./DOCUMENTATION.md)
+- **Comprehensive Technical Documentation:** [`DOCUMENTATION.md`](./DOCUMENTATION.md)
+- **GitHub Pull Request:** [PR #1 on branch `arena/01a0c866-brickpoint`](https://github.com/brickpoint786/BrickPoint/pull/1)
 
 ---
 
-## Key Features
+## What Makes Version 2 Truly Elementor-Native?
 
-### 1. Pixel-Perfect Visual Fidelity
-Matches the modern industrial aesthetic of BrickPoint:
-- **Brand Colors:** Terracotta Brick (`#c2410c`), Deep Ember (`#ea580c`), Dark Charcoal Ink (`#141210`), Sand Stone (`#f6f1ea`), Warm Gold (`#d9a441`).
-- **Typography & Responsive Design:** High-contrast headings, fluid typography, mobile touch navigation drawer, and smooth animations.
-- **Dynamic 3D SS7 Floating Card & Video Showcase:** CSS animations, video embed/player frames, and infinite marquee tickers.
+### 1. Zero Monolithic Black-Box Widgets
+- **Previous limitation:** Early implementations placed entire sections inside a single PHP-rendered custom widget or PHP template, rendering text and buttons inaccessible in the Elementor visual canvas.
+- **V2 Solution:** All visual sections are constructed using **native Elementor widgets** (`heading`, `text-editor`, `button`, `image`, `video`, `html`). When opening **Home → Edit with Elementor**, the user sees the real sections, columns, headings, and buttons in the Navigator and can click and edit any piece of content directly.
 
-### 2. Dual Elementor Architecture (Free & Pro Theme Builder)
-- **Elementor Free Support:** All sections, headers, cards, grids, and CTA banners are fully editable using Elementor's native drag-and-drop editor.
-- **Elementor Pro Theme Builder Ready:** Native integration with Elementor Pro locations:
-  - `header`
-  - `footer`
-  - `single` (Products, Videos, Projects, Posts, Pages)
-  - `archive` (Product Catalogue, Video Library, Project References, Categories, Blog)
-- **13 Custom Elementor Widgets:** Registered under the dedicated category `BrickPoint Theme Elements`:
-  1. `BrickPoint_Hero_Widget` (Hero Section with video and floating 3D badge)
-  2. `BrickPoint_SS7_Showcase_Widget` (Flagship SS7 brick showcase & technical specs)
-  3. `BrickPoint_Product_Grid_Widget` (Product grid with live prices and WhatsApp ordering)
-  4. `BrickPoint_Category_Grid_Widget` (12 Category cards with background media)
-  5. `BrickPoint_Video_Showcase_Widget` (Production video player & playlist)
-  6. `BrickPoint_Projects_Grid_Widget` (Construction reference cards)
-  7. `BrickPoint_Locations_Grid_Widget` (Bhatta kiln units with Google Maps directions)
-  8. `BrickPoint_WhatsApp_CTA_Widget` (Pre-formatted quotation inquiry banner)
-  9. `BrickPoint_Audience_Cards_Widget` (Who We Serve: Contractors, Builders, Companies)
-  10. `BrickPoint_Stats_Bar_Widget` (Trust stats and volume counters)
-  11. `BrickPoint_Specifications_Table_Widget` (Technical material properties table)
-  12. `BrickPoint_Header_Logo_Widget` (Header logo with desktop/mobile responsive height controls)
-  13. `BrickPoint_Footer_Logo_Widget` (Footer logo with desktop/mobile responsive height controls)
-- **24 Bundled Elementor JSON Templates:** Located in `elementor-templates/`, automatically imported during demo setup.
+### 2. Custom Widgets are Strictly Dynamic Query Tools
+In strict adherence to professional WordPress/Elementor standards, custom widgets are reserved exclusively for genuine dynamic database queries:
+1. `bp_product_grid` — Dynamic Product Query with controls for count, columns (2, 3, 4), category filter, featured switch, price display, and WhatsApp order button.
+2. `bp_category_grid` — Dynamic Category Cards with column and description toggles.
+3. `bp_video_grid` — Dynamic Video Library Grid with duration and badge controls.
+4. `bp_project_grid` — Dynamic Project References Grid with location and notice controls.
+5. `bp_location_grid` — Dynamic Bhatta Kiln Locations Grid with phone, hours, and map links.
+6. `bp_blog_grid` — Dynamic Blog Guides Grid.
+7. `bp_header_logo_widget` — Independent Header Logo with responsive desktop/mobile height sliders.
+8. `bp_footer_logo_widget` — Independent Footer Logo with responsive desktop/mobile height sliders.
 
-### 3. Custom Post Types & Meta Fields (Zero WooCommerce)
-No complicated e-commerce bloat, shopping carts, or payment gateway configurations. BrickPoint is built specifically for construction-materials procurement:
-- **`bp_product` (Products):**
-  - Fields: Price, Price Label, Unit (e.g. `1000 Bricks`, `Bag`, `Ton`), Availability (`In Stock`), Badge, SKU, Short Summary, Gallery Images, Technical Specifications (key-value), Key Features, Video URL, Brochure PDF URL, Custom WhatsApp Message Override.
-- **`bp_video` (Videos):**
-  - Fields: Video Source (`mp4`, `youtube`, `vimeo`), Video URL, Direct File URL, Duration, Featured flag.
-- **`bp_project` (Projects):**
-  - Fields: Category (`Residential`, `Commercial`), Location (`DHA Lahore`, `Bahria Town`, etc.), Status Label (`Illustrative construction reference`).
-- **`bp_location` (Locations):**
-  - Fields: Address, Phone Number, Operating Hours, Google Maps Direction Link, Facility Video URL.
-- **Custom Taxonomies:**
-  - `bp_product_category` (with custom image, banner, and sort order)
-  - `bp_video_category`
+### 3. Full 9-Section Homepage Structure in Elementor
+1. **Hero Section:**
+   - Badge ("Masha Allah • Fine Bricks • SS7")
+   - Main Heading ("Building Strength.")
+   - Highlight Heading ("Delivering Quality.")
+   - Subline Heading ("Shaping Tomorrow.")
+   - Subtitle paragraph ("Premium bricks and reliable construction materials...")
+   - 3 Action Buttons: "Explore Products →", "Request a Quote", "WhatsApp Us"
+   - Trust row: Quality-focused supply • Reliable delivery • Multiple production locations
+   - Video player with poster frame
+   - SS7 3D Card with thumbnail, "★ Flagship" tag, and "View SS7 range →" button
+   - "3+ Production Units" badge
+   - Animated marquee ticker of all 10 material types
+2. **Why BrickPoint (Trust & Intro):**
+   - Media column: Kiln production image + "Trusted Supply" and "Bulk Ready" glass overlay cards
+   - Content column: Eyebrow, Heading, Description paragraph, 4-point check checklist, 2 Action buttons ("About BrickPoint →", "Our Locations")
+3. **Product Categories Grid:**
+   - Eyebrow, Heading, Subheading
+   - 12 category cards with hover zoom and description teasers
+   - "View All Categories →" button
+4. **Flagship SS7 Bricks Showcase:**
+   - Eyebrow, Heading, Description
+   - 4-part Specifications Grid (Size, Type, Usage, Availability)
+   - 2 Action buttons ("Request SS7 Quote", "View SS7 Page →")
+   - Media column: Main SS7 Red Bricks image + 3 gallery thumbnails
+5. **Featured Products:**
+   - Eyebrow, Heading, Subheading
+   - Dynamic Product Grid with real pricing and WhatsApp order buttons
+   - "Browse All Products →" button
+6. **Inside BrickPoint Video Showcase:**
+   - Eyebrow, Heading, Description, "View All Videos →" button
+   - Main Video player ("Featured" badge)
+   - 2 Sub-video cards ("From the Bhatta to Your Building", "Materials That Become Landmarks")
+   - 3-column Video Grid
+7. **Project References:**
+   - Eyebrow, Heading, Description
+   - 3 Project cards (DHA Lahore, Bahria Town, Lake City)
+   - "Explore All Projects →" button
+8. **Who We Serve (Audience Cards):**
+   - Eyebrow, Heading, Description
+   - 3 Audience cards: For Contractors, For Builders, For Construction Companies
+9. **Quotation CTA Banner:**
+   - Dark textured background + overlay
+   - Eyebrow, Heading ("Send your material list. We handle the rest.")
+   - Telephone line, CEO, and Sales manager contact line
+   - "WhatsApp Your List" button + "Request Quote Form" button
 
-### 4. Direct WhatsApp Ordering & Inquiry System
-- Instant WhatsApp Web / WhatsApp App click-to-chat links with URL-encoded, pre-formatted messages:
-  - Product inquiries automatically include product title, category, listed price, and unit.
-  - Category inquiries include the specific material category name.
-  - Floating WhatsApp action button with pulsating live indicator.
-- Configurable WhatsApp phone numbers with international country code formatting.
+### 4. Complete Elementor Pro Theme Builder Templates
+- **Header Default (`header-default.json`):** Top bar with phone, units, and quicklinks; main header with independent header logo, full navigation menu, WhatsApp button, and Request Quote button.
+- **Footer Default (`footer-default.json`):** 4-column layout with independent footer logo, company bio, direct contacts, social media links, product link lists, company units, quotation text, WhatsApp button, and bottom copyright/legal bar.
+- **Single Product (`single-product.json`):** Product image, pricing, specifications, features, WhatsApp ordering button, and quote request.
+- **Archive Product (`archive-product.json`):** Product catalog archive template.
+- **Single Video & Archive Video:** Video player, metadata, and playlist.
+- **Single Project & Archive Project:** Reference photos, society badges, and content notices.
+- **Single Post & Archive Post:** Blog layout.
 
-### 5. Independent Header & Footer Logos
-- Independent customizer controls under **Appearance → Customize → BrickPoint Theme Options**:
-  - Independent Header Logo upload & separate Desktop / Mobile height sliders.
-  - Independent Footer Logo upload & separate Desktop / Mobile height sliders (supports dark-mode / inverted variations).
-
-### 6. One-Click Demo Importer (`Appearance → BrickPoint Demo`)
-- Imports 17 complete production pages:
-  `Home`, `About Us`, `SS7 Bricks`, `Construction Materials`, `For Contractors`, `For Builders`, `For Construction Companies`, `All Products`, `Product Categories`, `Inside BrickPoint Videos`, `Project References`, `Our Bhattas & Locations`, `Blog`, `Contact & Quotation`, `Privacy Policy`, `Terms & Conditions`, `Sample Page`.
-- Bundles 23 offline PNG images and 15 SVG icons — **zero external network requests** required for a complete, visually stunning demo setup.
-- Idempotent update/skip logic prevents duplicate pages or posts on re-runs.
-- Automatically assigns Navigation Menus (`Primary`, `Mobile`, `Footer`) and sets Static Front Page (`Home`) and Posts Page (`Blog`).
+### 5. Automated Demo Importer with True Elementor Injection
+Located in **Appearance → BrickPoint Demo**:
+- Injects authentic `_elementor_data` JSON onto all created WordPress pages (`Home`, `About`, `SS7 Bricks`, `Construction Materials`, `For Contractors`, `For Builders`, `For Companies`, `Contact`, `Privacy`, `Terms`).
+- Sets `_elementor_edit_mode = 'builder'`, `_elementor_template_type = 'wp-page'`, and `_elementor_version = '3.20.0'`.
+- Imports all 26 templates into the WordPress `elementor_library` and registers Theme Builder conditions (`include/general` for header/footer).
+- Side-loads 23 bundled offline images into the Media Library without external requests.
+- Assigns Navigation Menus and sets the static Front Page to `Home` and Posts Page to `Blog`.
 
 ---
 
 ## Installation & Setup Guide
 
-### Method A: Install via WordPress Admin
-1. Go to **WordPress Admin → Appearance → Themes → Add New → Upload Theme**.
-2. Choose [`brickpoint-wordpress-elementor-final.zip`](./brickpoint-wordpress-elementor-final.zip) and click **Install Now**.
-3. Click **Activate**.
-4. (Optional but recommended) Install and activate **Elementor** (Free or Pro) from the WordPress Plugin Directory.
-5. Navigate to **Appearance → BrickPoint Demo** and click **Start Full Demo Import**.
-6. The importer will automatically populate all 17 pages, 12 products, 12 categories, 6 videos, 6 projects, 4 bhattas, 4 blog guides, menus, and 24 Elementor templates.
-
-### Method B: Install via FTP / Manual Unzip
-1. Extract the contents of `brickpoint-wordpress-elementor-final.zip` into `wp-content/themes/`.
-2. Ensure the resulting path is `wp-content/themes/brickpoint/style.css`.
-3. In WordPress Admin, go to **Appearance → Themes** and activate **BrickPoint**.
-
----
-
-## Theme Structure
-
-```text
-brickpoint/
-├── 404.php                              # 404 Not Found template
-├── archive-bp_location.php              # Locations / Bhattas archive
-├── archive-bp_product.php               # Products catalogue archive
-├── archive-bp_project.php               # Projects & references archive
-├── archive-bp_video.php                 # Video library archive
-├── archive.php                          # Blog archive template
-├── footer.php                           # Site footer (Theme Builder compatible)
-├── front-page.php                       # 9-section homepage template
-├── functions.php                        # Main theme bootstrap
-├── header.php                           # Sticky header & navigation
-├── home.php                             # Blog index template
-├── index.php                            # Default fallback template
-├── page.php                             # Default page template
-├── readme.txt                           # Theme description and tags
-├── rtl.css                              # Right-to-left layout support
-├── screenshot.png                       # Theme preview screenshot (800x600)
-├── search.php                           # Search results template
-├── single-bp_location.php               # Single bhatta location template
-├── single-bp_product.php                # Single product with WhatsApp order
-├── single-bp_project.php                # Single project reference template
-├── single-bp_video.php                  # Single video player template
-├── single.php                           # Single blog article template
-├── style.css                            # Theme metadata & CSS variables
-├── taxonomy-bp_product_category.php     # Category product listing
-├── taxonomy-bp_video_category.php       # Video category listing
-├── assets/
-│   ├── css/
-│   │   ├── main.css                     # Primary styles
-│   │   ├── theme.css                    # Consolidated theme CSS
-│   │   ├── animations.css               # Keyframes & transitions
-│   │   └── responsive.css               # Media query overrides
-│   ├── icons/                           # 15 Custom SVG icons
-│   ├── images/                          # 23 Bundled offline media assets
-│   └── js/
-│       ├── main.js                      # Sticky header, drawer, gallery
-│       └── admin.js                     # One-click demo AJAX handler
-├── elementor-templates/                 # 24 Elementor JSON templates
-│   ├── header-default.json
-│   ├── footer-default.json
-│   ├── single-product.json
-│   ├── archive-product.json
-│   ├── page-home.json
-│   └── ... (19 additional templates)
-├── inc/
-│   ├── admin-settings.php               # Theme settings page
-│   ├── admin.php                        # Admin columns & notices
-│   ├── ajax-handlers.php                # Demo importer AJAX endpoints
-│   ├── customizer.php                   # Independent header/footer logos & settings
-│   ├── demo-data.php                    # 17 pages, 12 products, bhatta data
-│   ├── demo-importer.php                # Import logic & media library side-loader
-│   ├── elementor.php                    # Elementor Free & Pro integration
-│   ├── elementor-widgets.php            # 13 Custom Elementor widgets
-│   ├── enqueue.php                      # CSS/JS enqueuing
-│   ├── helpers.php                      # Theme helper functions
-│   ├── meta-fields.php                  # Meta boxes for all CPTs
-│   ├── post-types.php                   # bp_product, bp_video, bp_project, bp_location
-│   ├── project-functions.php            # Project reference helpers
-│   ├── setup.php                        # Theme features, thumbnail sizes, menus
-│   ├── taxonomies.php                   # bp_product_category, bp_video_category
-│   ├── template-functions.php           # Logos, menus, breadcrumbs
-│   ├── video-functions.php              # Video embed helpers
-│   └── whatsapp.php                     # WhatsApp inquiry builders
-└── template-parts/
-    ├── content.php                      # Blog card
-    ├── hero.php                         # 9-section hero banner
-    ├── location-card.php                # Bhatta unit card
-    ├── product-card.php                 # Product catalogue card
-    ├── project-card.php                 # Project reference card
-    ├── social-links.php                 # Social media icons
-    └── video-card.php                   # Video player card
-```
+1. In WordPress Admin, navigate to **Appearance → Themes → Add New → Upload Theme**.
+2. Select [`brickpoint-wordpress-elementor-final-v2.zip`](./brickpoint-wordpress-elementor-final-v2.zip) and click **Install Now**, then **Activate**.
+3. Install and activate the **Elementor** plugin (Free or Pro).
+4. Go to **Appearance → BrickPoint Demo** and click **Start Full Demo Import**.
+5. Go to **Pages → Home → Edit with Elementor** — every section, heading, text, button, image, and column will be ready to visually edit!
 
 ---
 
 ## Contact & Credits
 
 - **Enterprise:** BrickPoint Pakistan
-- **Manufacturing Units:** Masha Allah Bricks Co. &bull; Fine Bricks Co. &bull; SS7 Bricks
+- **Units:** Masha Allah Bricks Co. • Fine Bricks Co. • SS7 Bricks
 - **CEO:** Syed Iftikhar Haider
 - **Sales & Logistics:** Qasim Iqbal
 - **Phone / WhatsApp:** +92 315 2850818

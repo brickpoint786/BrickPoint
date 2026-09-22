@@ -1,34 +1,109 @@
 {
-  "title": "WhatsApp CTA Banner Section",
+  "title": "Modular WhatsApp CTA Banner Section",
   "type": "section",
   "version": "0.4",
   "content": [
     {
-      "id": "sec_4bf0bfe9",
+      "id": "6e2da64",
       "elType": "section",
+      "isInner": false,
       "settings": {
         "layout": "boxed",
-        "css_classes": ""
+        "_css_classes": "bp-section bp-cta-section",
+        "background_background": "classic",
+        "background_image": {
+          "url": "/wp-content/themes/brickpoint/assets/images/bricklayer.png",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover"
       },
       "elements": [
         {
-          "id": "col_b6a46732",
+          "id": "41dfd4f",
           "elType": "column",
+          "isInner": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 65,
+            "_css_classes": "bp-cta-text"
           },
           "elements": [
             {
-              "id": "wid_fa7ed4e8",
+              "id": "da900d8",
               "elType": "widget",
-              "widgetType": "bp_whatsapp_cta",
-              "settings": {}
+              "widgetType": "heading",
+              "settings": {
+                "title": "Get a fast quotation",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "b6de0a5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Send your material list.<br />We handle the rest.",
+                "header_size": "h2",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "09cdae6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-cta-meta\">\ud83d\udcde 0315 2850818 \u2022 CEO: Syed Iftikhar Haider \u2022 Sales: Qasim Iqbal</p>"
+              },
+              "elements": []
             }
-          ],
-          "isInner": false
+          ]
+        },
+        {
+          "id": "2951c5b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 35,
+            "_css_classes": "bp-cta-buttons"
+          },
+          "elements": [
+            {
+              "id": "14262f9",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "WhatsApp Your List",
+                "link": {
+                  "url": "https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20Please%20share%20a%20quotation.",
+                  "is_external": true
+                },
+                "size": "lg",
+                "_css_classes": "btn-whatsapp btn-lg"
+              },
+              "elements": []
+            },
+            {
+              "id": "3ad8440",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Request Quote Form",
+                "link": {
+                  "url": "/contact",
+                  "is_external": false
+                },
+                "size": "lg",
+                "_css_classes": "btn-brick btn-lg"
+              },
+              "elements": []
+            }
+          ]
         }
-      ],
-      "isInner": false
+      ]
     }
   ]
 }

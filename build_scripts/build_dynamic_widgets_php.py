@@ -1,4 +1,8 @@
-<?php
+import os
+
+DEST = "/home/user/BrickPoint/wordpress/brickpoint/inc/elementor-widgets.php"
+
+widgets_code = """<?php
 /**
  * BrickPoint Genuine Dynamic Elementor Widgets
  *
@@ -20,12 +24,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
-  if ( ! class_exists( '\Elementor\Widget_Base' ) ) {
+  if ( ! class_exists( '\\Elementor\\Widget_Base' ) ) {
     return;
   }
 
   // 1. DYNAMIC PRODUCT GRID WIDGET
-  class BrickPoint_Product_Grid_Widget extends \Elementor\Widget_Base {
+  class BrickPoint_Product_Grid_Widget extends \\Elementor\\Widget_Base {
     public function get_name() { return 'bp_product_grid'; }
     public function get_title() { return esc_html__( 'Product Grid (Dynamic)', 'brickpoint' ); }
     public function get_icon() { return 'eicon-products'; }
@@ -35,26 +39,26 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
       $this->start_controls_section( 'section_query', array( 'label' => esc_html__( 'Query & Filter', 'brickpoint' ) ) );
       $this->add_control( 'count', array(
         'label'   => esc_html__( 'Number of Products', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::NUMBER,
+        'type'    => \\Elementor\\Controls_Manager::NUMBER,
         'default' => 8,
         'min'     => 1,
         'max'     => 48,
       ) );
       $this->add_control( 'columns', array(
         'label'   => esc_html__( 'Columns', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::SELECT,
+        'type'    => \\Elementor\\Controls_Manager::SELECT,
         'default' => '4',
         'options' => array( '2' => '2 Columns', '3' => '3 Columns', '4' => '4 Columns' ),
       ) );
       $this->add_control( 'category', array(
         'label'       => esc_html__( 'Filter by Category Slug', 'brickpoint' ),
-        'type'        => \Elementor\Controls_Manager::TEXT,
+        'type'        => \\Elementor\\Controls_Manager::TEXT,
         'description' => esc_html__( 'Leave empty to display from all categories', 'brickpoint' ),
         'default'     => '',
       ) );
       $this->add_control( 'featured_only', array(
         'label'        => esc_html__( 'Featured Only', 'brickpoint' ),
-        'type'         => \Elementor\Controls_Manager::SWITCHER,
+        'type'         => \\Elementor\\Controls_Manager::SWITCHER,
         'label_on'     => esc_html__( 'Yes', 'brickpoint' ),
         'label_off'    => esc_html__( 'No', 'brickpoint' ),
         'return_value' => 'yes',
@@ -62,12 +66,12 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
       ) );
       $this->add_control( 'show_price', array(
         'label'        => esc_html__( 'Show Price & Unit', 'brickpoint' ),
-        'type'         => \Elementor\Controls_Manager::SWITCHER,
+        'type'         => \\Elementor\\Controls_Manager::SWITCHER,
         'default'      => 'yes',
       ) );
       $this->add_control( 'show_whatsapp', array(
         'label'        => esc_html__( 'Show WhatsApp Order Button', 'brickpoint' ),
-        'type'         => \Elementor\Controls_Manager::SWITCHER,
+        'type'         => \\Elementor\\Controls_Manager::SWITCHER,
         'default'      => 'yes',
       ) );
       $this->end_controls_section();
@@ -113,7 +117,7 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
   }
 
   // 2. DYNAMIC CATEGORY GRID WIDGET
-  class BrickPoint_Category_Grid_Widget extends \Elementor\Widget_Base {
+  class BrickPoint_Category_Grid_Widget extends \\Elementor\\Widget_Base {
     public function get_name() { return 'bp_category_grid'; }
     public function get_title() { return esc_html__( 'Category Grid (Dynamic)', 'brickpoint' ); }
     public function get_icon() { return 'eicon-gallery-grid'; }
@@ -123,20 +127,20 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
       $this->start_controls_section( 'section_settings', array( 'label' => esc_html__( 'Display Settings', 'brickpoint' ) ) );
       $this->add_control( 'count', array(
         'label'   => esc_html__( 'Number of Categories', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::NUMBER,
+        'type'    => \\Elementor\\Controls_Manager::NUMBER,
         'default' => 12,
         'min'     => 1,
         'max'     => 30,
       ) );
       $this->add_control( 'columns', array(
         'label'   => esc_html__( 'Columns', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::SELECT,
+        'type'    => \\Elementor\\Controls_Manager::SELECT,
         'default' => '4',
         'options' => array( '2' => '2 Columns', '3' => '3 Columns', '4' => '4 Columns' ),
       ) );
       $this->add_control( 'show_description', array(
         'label'   => esc_html__( 'Show Description', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::SWITCHER,
+        'type'    => \\Elementor\\Controls_Manager::SWITCHER,
         'default' => 'yes',
       ) );
       $this->end_controls_section();
@@ -189,7 +193,7 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
   }
 
   // 3. DYNAMIC VIDEO GRID WIDGET
-  class BrickPoint_Video_Grid_Widget extends \Elementor\Widget_Base {
+  class BrickPoint_Video_Grid_Widget extends \\Elementor\\Widget_Base {
     public function get_name() { return 'bp_video_grid'; }
     public function get_title() { return esc_html__( 'Video Grid (Dynamic)', 'brickpoint' ); }
     public function get_icon() { return 'eicon-video-playlist'; }
@@ -199,12 +203,12 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
       $this->start_controls_section( 'section_settings', array( 'label' => esc_html__( 'Query & Layout', 'brickpoint' ) ) );
       $this->add_control( 'count', array(
         'label'   => esc_html__( 'Number of Videos', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::NUMBER,
+        'type'    => \\Elementor\\Controls_Manager::NUMBER,
         'default' => 6,
       ) );
       $this->add_control( 'columns', array(
         'label'   => esc_html__( 'Columns', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::SELECT,
+        'type'    => \\Elementor\\Controls_Manager::SELECT,
         'default' => '3',
         'options' => array( '2' => '2 Columns', '3' => '3 Columns' ),
       ) );
@@ -235,7 +239,7 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
   }
 
   // 4. DYNAMIC PROJECT GRID WIDGET
-  class BrickPoint_Project_Grid_Widget extends \Elementor\Widget_Base {
+  class BrickPoint_Project_Grid_Widget extends \\Elementor\\Widget_Base {
     public function get_name() { return 'bp_project_grid'; }
     public function get_title() { return esc_html__( 'Project Grid (Dynamic)', 'brickpoint' ); }
     public function get_icon() { return 'eicon-gallery-masonry'; }
@@ -245,12 +249,12 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
       $this->start_controls_section( 'section_settings', array( 'label' => esc_html__( 'Query & Layout', 'brickpoint' ) ) );
       $this->add_control( 'count', array(
         'label'   => esc_html__( 'Number of Projects', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::NUMBER,
+        'type'    => \\Elementor\\Controls_Manager::NUMBER,
         'default' => 6,
       ) );
       $this->add_control( 'columns', array(
         'label'   => esc_html__( 'Columns', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::SELECT,
+        'type'    => \\Elementor\\Controls_Manager::SELECT,
         'default' => '3',
         'options' => array( '2' => '2 Columns', '3' => '3 Columns' ),
       ) );
@@ -281,7 +285,7 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
   }
 
   // 5. DYNAMIC LOCATION GRID WIDGET
-  class BrickPoint_Location_Grid_Widget extends \Elementor\Widget_Base {
+  class BrickPoint_Location_Grid_Widget extends \\Elementor\\Widget_Base {
     public function get_name() { return 'bp_location_grid'; }
     public function get_title() { return esc_html__( 'Location Grid (Dynamic)', 'brickpoint' ); }
     public function get_icon() { return 'eicon-google-maps'; }
@@ -291,7 +295,7 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
       $this->start_controls_section( 'section_settings', array( 'label' => esc_html__( 'Query & Layout', 'brickpoint' ) ) );
       $this->add_control( 'count', array(
         'label'   => esc_html__( 'Number of Locations', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::NUMBER,
+        'type'    => \\Elementor\\Controls_Manager::NUMBER,
         'default' => 4,
       ) );
       $this->end_controls_section();
@@ -320,7 +324,7 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
   }
 
   // 6. DYNAMIC BLOG GRID WIDGET
-  class BrickPoint_Blog_Grid_Widget extends \Elementor\Widget_Base {
+  class BrickPoint_Blog_Grid_Widget extends \\Elementor\\Widget_Base {
     public function get_name() { return 'bp_blog_grid'; }
     public function get_title() { return esc_html__( 'Blog Grid (Dynamic)', 'brickpoint' ); }
     public function get_icon() { return 'eicon-post-list'; }
@@ -330,12 +334,12 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
       $this->start_controls_section( 'section_settings', array( 'label' => esc_html__( 'Query & Layout', 'brickpoint' ) ) );
       $this->add_control( 'count', array(
         'label'   => esc_html__( 'Number of Posts', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::NUMBER,
+        'type'    => \\Elementor\\Controls_Manager::NUMBER,
         'default' => 6,
       ) );
       $this->add_control( 'columns', array(
         'label'   => esc_html__( 'Columns', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::SELECT,
+        'type'    => \\Elementor\\Controls_Manager::SELECT,
         'default' => '3',
         'options' => array( '2' => '2 Columns', '3' => '3 Columns' ),
       ) );
@@ -366,7 +370,7 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
   }
 
   // 7. INDEPENDENT HEADER LOGO WIDGET
-  class BrickPoint_Header_Logo_Widget extends \Elementor\Widget_Base {
+  class BrickPoint_Header_Logo_Widget extends \\Elementor\\Widget_Base {
     public function get_name() { return 'bp_header_logo_widget'; }
     public function get_title() { return esc_html__( 'Header Logo (Independent)', 'brickpoint' ); }
     public function get_icon() { return 'eicon-site-logo'; }
@@ -376,12 +380,12 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
       $this->start_controls_section( 'section_logo', array( 'label' => esc_html__( 'Header Logo Settings', 'brickpoint' ) ) );
       $this->add_control( 'custom_logo', array(
         'label'   => esc_html__( 'Custom Logo Image (Optional override)', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::MEDIA,
+        'type'    => \\Elementor\\Controls_Manager::MEDIA,
         'default' => array( 'url' => '' ),
       ) );
       $this->add_responsive_control( 'desktop_height', array(
         'label'      => esc_html__( 'Logo Height (px)', 'brickpoint' ),
-        'type'       => \Elementor\Controls_Manager::SLIDER,
+        'type'       => \\Elementor\\Controls_Manager::SLIDER,
         'size_units' => array( 'px' ),
         'range'      => array(
           'px' => array( 'min' => 20, 'max' => 120, 'step' => 1 ),
@@ -393,7 +397,7 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
       ) );
       $this->add_responsive_control( 'alignment', array(
         'label'     => esc_html__( 'Alignment', 'brickpoint' ),
-        'type'      => \Elementor\Controls_Manager::CHOOSE,
+        'type'      => \\Elementor\\Controls_Manager::CHOOSE,
         'options'   => array(
           'left'   => array( 'title' => esc_html__( 'Left', 'brickpoint' ), 'icon' => 'eicon-text-align-left' ),
           'center' => array( 'title' => esc_html__( 'Center', 'brickpoint' ), 'icon' => 'eicon-text-align-center' ),
@@ -422,7 +426,7 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
   }
 
   // 8. INDEPENDENT FOOTER LOGO WIDGET
-  class BrickPoint_Footer_Logo_Widget extends \Elementor\Widget_Base {
+  class BrickPoint_Footer_Logo_Widget extends \\Elementor\\Widget_Base {
     public function get_name() { return 'bp_footer_logo_widget'; }
     public function get_title() { return esc_html__( 'Footer Logo (Independent)', 'brickpoint' ); }
     public function get_icon() { return 'eicon-image'; }
@@ -432,12 +436,12 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
       $this->start_controls_section( 'section_logo', array( 'label' => esc_html__( 'Footer Logo Settings', 'brickpoint' ) ) );
       $this->add_control( 'custom_logo', array(
         'label'   => esc_html__( 'Custom Logo Image (Optional override)', 'brickpoint' ),
-        'type'    => \Elementor\Controls_Manager::MEDIA,
+        'type'    => \\Elementor\\Controls_Manager::MEDIA,
         'default' => array( 'url' => '' ),
       ) );
       $this->add_responsive_control( 'desktop_height', array(
         'label'      => esc_html__( 'Logo Height (px)', 'brickpoint' ),
-        'type'       => \Elementor\Controls_Manager::SLIDER,
+        'type'       => \\Elementor\\Controls_Manager::SLIDER,
         'size_units' => array( 'px' ),
         'range'      => array(
           'px' => array( 'min' => 20, 'max' => 140, 'step' => 1 ),
@@ -449,7 +453,7 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
       ) );
       $this->add_responsive_control( 'alignment', array(
         'label'     => esc_html__( 'Alignment', 'brickpoint' ),
-        'type'      => \Elementor\Controls_Manager::CHOOSE,
+        'type'      => \\Elementor\\Controls_Manager::CHOOSE,
         'options'   => array(
           'left'   => array( 'title' => esc_html__( 'Left', 'brickpoint' ), 'icon' => 'eicon-text-align-left' ),
           'center' => array( 'title' => esc_html__( 'Center', 'brickpoint' ), 'icon' => 'eicon-text-align-center' ),
@@ -488,3 +492,9 @@ function brickpoint_register_elementor_dynamic_widgets( $widgets_manager ) {
   $widgets_manager->register( new BrickPoint_Footer_Logo_Widget() );
 }
 add_action( 'elementor/widgets/register', 'brickpoint_register_elementor_dynamic_widgets' );
+"""
+
+with open(DEST, "w", encoding="utf-8") as f:
+    f.write(widgets_code.strip() + "\n")
+
+print(f"Wrote {DEST} successfully with genuine dynamic widgets.")

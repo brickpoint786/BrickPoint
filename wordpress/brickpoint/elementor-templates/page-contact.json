@@ -1,51 +1,197 @@
 {
-  "title": "Contact Page",
+  "title": "Contact Us",
   "type": "page",
   "version": "0.4",
   "content": [
     {
-      "id": "sec_b47b21a3",
+      "id": "c6121f8",
       "elType": "section",
+      "isInner": false,
       "settings": {
         "layout": "boxed",
-        "css_classes": ""
+        "_css_classes": "bp-pagehead bp-dark"
       },
       "elements": [
         {
-          "id": "col_77ed6d40",
+          "id": "bc2ed4f",
           "elType": "column",
+          "isInner": false,
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "wid_8ec0fd77",
+              "id": "733bacc",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Contact & Quotation Request",
-                "header_size": "h1"
-              }
+                "title": "Get In Touch",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
             },
             {
-              "id": "wid_0b59523b",
+              "id": "f648995",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Contact BrickPoint",
+                "header_size": "h1",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "0b54edb",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Send your bill of quantities on WhatsApp or call our sales line directly.</p>"
-              }
+                "editor": "<p class=\"bp-body-text bp-head-light-dim\">Call, WhatsApp or send the quotation form \u2014 we respond fast on working hours.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7e38e8",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section"
+      },
+      "elements": [
+        {
+          "id": "2411ffb",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 35,
+            "_css_classes": "bp-box bp-dark"
+          },
+          "elements": [
+            {
+              "id": "9bcc07b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Direct Contact",
+                "header_size": "h3",
+                "_css_classes": "font-display"
+              },
+              "elements": []
             },
             {
-              "id": "wid_0e69af6a",
+              "id": "0cd0e80",
               "elType": "widget",
-              "widgetType": "bp_whatsapp_cta",
-              "settings": {}
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>\ud83d\udcde <strong>Phone:</strong> 0315 2850818<br />\u2709 <strong>Email:</strong> info@brickpoint.pk<br />\ud83d\udccd <strong>Address:</strong> Lahore, Punjab, Pakistan<br />CEO: Syed Iftikhar Haider \u2022 Sales: Qasim Iqbal</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "8d47968",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Chat on WhatsApp",
+                "link": {
+                  "url": "https://api.whatsapp.com/send?phone=923152850818",
+                  "is_external": true
+                },
+                "size": "md",
+                "_css_classes": "btn-whatsapp btn-block"
+              },
+              "elements": []
+            },
+            {
+              "id": "9fe3d00",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Office Map",
+                "header_size": "h4",
+                "_css_classes": "font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "b2199e9",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "\ud83d\udccd Open Google Maps",
+                "link": {
+                  "url": "https://maps.app.goo.gl/GACXw15YxyV4bK5t8",
+                  "is_external": true
+                },
+                "size": "sm",
+                "_css_classes": "btn-dark btn-block"
+              },
+              "elements": []
+            },
+            {
+              "id": "99bdf2b",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "View All Bhatta Locations",
+                "link": {
+                  "url": "/locations",
+                  "is_external": false
+                },
+                "size": "sm",
+                "_css_classes": "btn-ghost btn-block"
+              },
+              "elements": []
             }
-          ],
-          "isInner": false
+          ]
+        },
+        {
+          "id": "46b660b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 65,
+            "_css_classes": "bp-box"
+          },
+          "elements": [
+            {
+              "id": "0ed28da",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Request a Quotation",
+                "header_size": "h2",
+                "_css_classes": "font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "59de716",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Fill out the material quotation form below or send your BOQ on WhatsApp for instant response.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "994cf55",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<form action=\"https://api.whatsapp.com/send\" method=\"get\" target=\"_blank\"><input type=\"hidden\" name=\"phone\" value=\"923152850818\" /><div style=\"display:grid;grid-gap:15px;grid-template-columns:1fr 1fr;\"><div><label style=\"font-weight:700;font-size:0.85rem;\">Full Name *</label><input type=\"text\" name=\"name\" required placeholder=\"Your name\" style=\"width:100%;padding:10px;border-radius:10px;border:1px solid #ddd;\" /></div><div><label style=\"font-weight:700;font-size:0.85rem;\">Phone Number *</label><input type=\"text\" name=\"user_phone\" required placeholder=\"03xx xxxxxxx\" style=\"width:100%;padding:10px;border-radius:10px;border:1px solid #ddd;\" /></div><div><label style=\"font-weight:700;font-size:0.85rem;\">Email</label><input type=\"email\" name=\"email\" placeholder=\"you@email.com\" style=\"width:100%;padding:10px;border-radius:10px;border:1px solid #ddd;\" /></div><div><label style=\"font-weight:700;font-size:0.85rem;\">Material Required</label><select name=\"material\" style=\"width:100%;padding:10px;border-radius:10px;border:1px solid #ddd;\"><option>SS7 Bricks</option><option>First Class Bricks (Awwal)</option><option>Cement</option><option>Crush / Bajri</option><option>Sand / Rait</option><option>Steel</option><option>Pipes & Cables</option><option>Complete BOQ</option></select></div><div style=\"grid-column:1/-1;\"><label style=\"font-weight:700;font-size:0.85rem;\">Delivery Location</label><input type=\"text\" name=\"loc\" placeholder=\"e.g. DHA Phase 6, Lahore\" style=\"width:100%;padding:10px;border-radius:10px;border:1px solid #ddd;\" /></div><div style=\"grid-column:1/-1;\"><label style=\"font-weight:700;font-size:0.85rem;\">Message / Bill of Quantities</label><textarea name=\"text\" rows=\"4\" placeholder=\"Share your required quantities and timeline...\" style=\"width:100%;padding:10px;border-radius:10px;border:1px solid #ddd;\"></textarea></div><div style=\"grid-column:1/-1;\"><button type=\"submit\" class=\"btn-brick btn-lg\" style=\"width:100%;\">Submit Quotation Request \u2192</button></div></div></form>"
+              },
+              "elements": []
+            }
+          ]
         }
-      ],
-      "isInner": false
+      ]
     }
   ]
 }

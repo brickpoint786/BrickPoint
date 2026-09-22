@@ -1,56 +1,75 @@
 {
-  "title": "Single Video",
+  "title": "Single Video Template",
   "type": "single-post",
   "version": "0.4",
   "content": [
     {
-      "id": "sec_ce859a7d",
+      "id": "799d686",
       "elType": "section",
+      "isInner": false,
       "settings": {
         "layout": "boxed",
-        "css_classes": ""
+        "_css_classes": "bp-section bp-narrow"
       },
       "elements": [
         {
-          "id": "col_b6e2ad59",
+          "id": "67f3e5d",
           "elType": "column",
+          "isInner": false,
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "wid_60b979b5",
+              "id": "65124f6",
               "elType": "widget",
               "widgetType": "video",
               "settings": {
                 "video_type": "hosted",
                 "hosted_url": {
                   "url": "https://videos.pexels.com/video-files/27758012/12218981_3840_2160_25fps.mp4"
-                }
-              }
+                },
+                "show_controls": "yes",
+                "_css_classes": "hero-video-frame"
+              },
+              "elements": []
             },
             {
-              "id": "wid_701563a0",
+              "id": "7189984",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
                 "title": "Inside BrickPoint Video",
-                "header_size": "h1"
-              }
+                "header_size": "h1",
+                "_css_classes": "font-display bp-mt"
+              },
+              "elements": []
             },
             {
-              "id": "wid_fd94d919",
+              "id": "1b04554",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Continuous high-draft kiln chambers, automated brick handling, and quality checks.</p>"
-              }
+                "editor": "<p>Walkthrough of our brick manufacturing plant, clay mixing pits, and continuous coal-firing chambers.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "ca145b2",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "\u2190 Back to Videos",
+                "link": {
+                  "url": "/videos"
+                },
+                "_css_classes": "btn-ghost"
+              },
+              "elements": []
             }
-          ],
-          "isInner": false
+          ]
         }
-      ],
-      "isInner": false
+      ]
     }
   ]
 }

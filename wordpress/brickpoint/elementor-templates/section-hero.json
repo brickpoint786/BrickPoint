@@ -1,34 +1,320 @@
 {
-  "title": "Hero Section",
+  "title": "Modular Hero Section",
   "type": "section",
   "version": "0.4",
   "content": [
     {
-      "id": "sec_c5105b5a",
+      "id": "038a64a",
       "elType": "section",
+      "isInner": false,
       "settings": {
         "layout": "boxed",
-        "css_classes": ""
+        "_css_classes": "bp-hero bp-dark",
+        "background_background": "classic",
+        "background_image": {
+          "url": "/wp-content/themes/brickpoint/assets/images/brick-mason.png",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover"
       },
       "elements": [
         {
-          "id": "col_8a13cea2",
+          "id": "796496f",
           "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 55,
+            "_css_classes": "bp-hero-text"
+          },
+          "elements": [
+            {
+              "id": "8293398",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Masha Allah \u2022 Fine Bricks \u2022 SS7",
+                "header_size": "p",
+                "align": "left",
+                "_css_classes": "bp-hero-badge"
+              },
+              "elements": []
+            },
+            {
+              "id": "e39efe0",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Building Strength.<br /><span class=\"text-orange\">Delivering Quality.</span><br />Shaping Tomorrow.",
+                "header_size": "h1",
+                "align": "left",
+                "_css_classes": "bp-hero-title font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "37627ca",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Premium bricks and reliable construction materials for homes, commercial developments, and large-scale building projects.</p>",
+                "_css_classes": "bp-hero-sub"
+              },
+              "elements": []
+            },
+            {
+              "id": "3887275",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "bp-hero-cta"
+              },
+              "elements": [
+                {
+                  "id": "a6eaf28",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "eb2f875",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore Products \u2192",
+                        "link": {
+                          "url": "/products",
+                          "is_external": false
+                        },
+                        "size": "md",
+                        "_css_classes": "btn-brick"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "b64c301",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "672a4e9",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Request a Quote",
+                        "link": {
+                          "url": "/contact",
+                          "is_external": false
+                        },
+                        "size": "md",
+                        "_css_classes": "btn-ghost"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "e95f1e1",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 34
+                  },
+                  "elements": [
+                    {
+                      "id": "2d9a930",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "WhatsApp Us",
+                        "link": {
+                          "url": "https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20I%20need%20a%20quotation.",
+                          "is_external": true
+                        },
+                        "size": "md",
+                        "_css_classes": "btn-whatsapp"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "3e8b7dc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class=\"bp-hero-trust-row\"><span>\ud83d\udee1 Quality-focused supply</span><span>\ud83d\ude9a Reliable delivery</span><span>\ud83c\udfed Multiple production locations</span></div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "3be8535",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 45,
+            "_css_classes": "bp-hero-media-wrap"
+          },
+          "elements": [
+            {
+              "id": "0593a87",
+              "elType": "widget",
+              "widgetType": "video",
+              "settings": {
+                "video_type": "hosted",
+                "hosted_url": {
+                  "url": "https://videos.pexels.com/video-files/35411576/15003649_3840_2160_24fps.mp4"
+                },
+                "show_controls": "yes",
+                "_css_classes": "hero-video-frame"
+              },
+              "elements": []
+            },
+            {
+              "id": "324ae47",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "ss7-brick ss7-brick-loop"
+              },
+              "elements": [
+                {
+                  "id": "c24b1d7",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 30
+                  },
+                  "elements": [
+                    {
+                      "id": "984c866",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "/wp-content/themes/brickpoint/assets/images/red-stack.png"
+                        },
+                        "image_size": "thumbnail",
+                        "_css_classes": "bp-ss7-thumb"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "cea8fa7",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 70
+                  },
+                  "elements": [
+                    {
+                      "id": "381fd8a",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u2605 Flagship",
+                        "header_size": "p",
+                        "_css_classes": "bp-flagship-tag text-gold"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "2d7a187",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "SS7 Bricks",
+                        "header_size": "h3",
+                        "_css_classes": "bp-ss7-title font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "7801ec8",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "View SS7 range \u2192",
+                        "link": {
+                          "url": "/ss7-bricks",
+                          "is_external": false
+                        },
+                        "size": "xs",
+                        "_css_classes": "bp-ss7-link"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "91fbda1",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"bp-units-pill\"><p class=\"bp-units-count\">3<span class=\"text-orange\">+</span></p><p class=\"bp-units-label\">Production units</p></div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "5727f23",
+          "elType": "column",
+          "isInner": false,
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "wid_594ca197",
-              "elType": "widget",
-              "widgetType": "bp_hero",
-              "settings": {}
+              "id": "0554bf9",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "44f2111",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 100
+                  },
+                  "elements": [
+                    {
+                      "id": "cd1f389",
+                      "elType": "widget",
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div class=\"bp-marquee-bar\"><div class=\"marquee-track\"><div class=\"marquee-group\"><span><span class=\"bp-dot-orange\"></span>SS7 Bricks</span><span><span class=\"bp-dot-orange\"></span>Cement</span><span><span class=\"bp-dot-orange\"></span>Bajri / Crush</span><span><span class=\"bp-dot-orange\"></span>Sand / Rait</span><span><span class=\"bp-dot-orange\"></span>Steel</span><span><span class=\"bp-dot-orange\"></span>Pipes</span><span><span class=\"bp-dot-orange\"></span>Chemicals</span><span><span class=\"bp-dot-orange\"></span>Cables</span><span><span class=\"bp-dot-orange\"></span>Paints</span><span><span class=\"bp-dot-orange\"></span>Lights</span></div><div class=\"marquee-group\"><span><span class=\"bp-dot-orange\"></span>SS7 Bricks</span><span><span class=\"bp-dot-orange\"></span>Cement</span><span><span class=\"bp-dot-orange\"></span>Bajri / Crush</span><span><span class=\"bp-dot-orange\"></span>Sand / Rait</span><span><span class=\"bp-dot-orange\"></span>Steel</span><span><span class=\"bp-dot-orange\"></span>Pipes</span><span><span class=\"bp-dot-orange\"></span>Chemicals</span><span><span class=\"bp-dot-orange\"></span>Cables</span><span><span class=\"bp-dot-orange\"></span>Paints</span><span><span class=\"bp-dot-orange\"></span>Lights</span></div></div></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
             }
-          ],
-          "isInner": false
+          ]
         }
-      ],
-      "isInner": false
+      ]
     }
   ]
 }

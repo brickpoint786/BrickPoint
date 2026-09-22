@@ -1,55 +1,85 @@
 {
-  "title": "Single Project",
+  "title": "Single Project Template",
   "type": "single-post",
   "version": "0.4",
   "content": [
     {
-      "id": "sec_d5b4e5bd",
+      "id": "fcd8d8a",
       "elType": "section",
+      "isInner": false,
       "settings": {
         "layout": "boxed",
-        "css_classes": ""
+        "_css_classes": "bp-section bp-narrow"
       },
       "elements": [
         {
-          "id": "col_ce670aae",
+          "id": "4d08117",
           "elType": "column",
+          "isInner": false,
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "wid_d07d4344",
+              "id": "aabca11",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
                 "title": "Project Reference",
-                "header_size": "h1"
-              }
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
             },
             {
-              "id": "wid_ca3d36e6",
+              "id": "31cd46a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "DHA Lahore Villa Reference",
+                "header_size": "h1",
+                "_css_classes": "font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "046458a",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
                 "image": {
                   "url": "/wp-content/themes/brickpoint/assets/images/villa1.png"
-                }
-              }
+                },
+                "_css_classes": "bp-post-hero-img img-zoom"
+              },
+              "elements": []
             },
             {
-              "id": "wid_461b7792",
+              "id": "03c680e",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Illustrative construction reference from premier housing societies.</p>"
-              }
+                "editor": "<div class=\"bp-notice-box\"><strong>Content notice:</strong> Illustrative construction reference. BrickPoint does not claim supply to any named society unless verified.</div><p>High-end structural masonry combining exposed SS7 red bricks with reinforced concrete.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "7a0384e",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Inquire on WhatsApp",
+                "link": {
+                  "url": "https://api.whatsapp.com/send?phone=923152850818",
+                  "is_external": true
+                },
+                "_css_classes": "btn-whatsapp"
+              },
+              "elements": []
             }
-          ],
-          "isInner": false
+          ]
         }
-      ],
-      "isInner": false
+      ]
     }
   ]
 }

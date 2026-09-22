@@ -4,40 +4,175 @@
   "version": "0.4",
   "content": [
     {
-      "id": "sec_24b25645",
+      "id": "55bd038",
       "elType": "section",
+      "isInner": false,
       "settings": {
         "layout": "boxed",
-        "css_classes": "bp-header"
+        "_css_classes": "bp-topbar"
       },
       "elements": [
         {
-          "id": "col_adf3afba",
+          "id": "c4a628c",
           "elType": "column",
+          "isInner": false,
           "settings": {
-            "_column_size": 100
+            "_column_size": 60
           },
           "elements": [
             {
-              "id": "wid_55d39b68",
+              "id": "27930b1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"color:#fff;font-weight:700;\">\ud83d\udcde 0315 2850818</span> &nbsp;\u2022&nbsp; <span style=\"color:#a8a29e;\">Masha Allah Bricks Co. \u2022 Fine Bricks Co. \u2022 SS7 Bricks</span>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "ff6ffc7",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 40
+          },
+          "elements": [
+            {
+              "id": "915d113",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style=\"text-align:right;\"><a href=\"/locations\" style=\"color:#e5e5e5;margin-right:15px;\">Our Bhattas</a><a href=\"/videos\" style=\"color:#e5e5e5;margin-right:15px;\">Videos</a><a href=\"/about\" style=\"color:#e5e5e5;\">About Us</a></div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1775c5",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-header sticky-header"
+      },
+      "elements": [
+        {
+          "id": "041923b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25,
+            "_css_classes": "bp-logo-wrap"
+          },
+          "elements": [
+            {
+              "id": "38e3601",
               "elType": "widget",
               "widgetType": "bp_header_logo_widget",
-              "settings": {}
-            },
-            {
-              "id": "wid_ff6d4650",
-              "elType": "widget",
-              "widgetType": "heading",
               "settings": {
-                "title": "BrickPoint Navigation",
-                "header_size": "h4"
-              }
+                "desktop_height": 44,
+                "mobile_height": 36
+              },
+              "elements": []
             }
-          ],
-          "isInner": false
+          ]
+        },
+        {
+          "id": "6c7a0d2",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "6be2bc0",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<nav class=\"bp-nav\"><ul class=\"bp-menu\"><li><a href=\"/\">Home</a></li><li><a href=\"/ss7-bricks\" class=\"bp-highlight-menu-item\">SS7 Bricks</a></li><li><a href=\"/products\">Products</a></li><li><a href=\"/categories\">Categories</a></li><li><a href=\"/construction-materials\">Materials</a></li><li><a href=\"/videos\">Videos</a></li><li><a href=\"/projects\">Projects</a></li><li><a href=\"/about\">About</a></li><li><a href=\"/contact\">Contact</a></li></ul></nav>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "53dec6e",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "cbe4ce1",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "bp-header-cta"
+              },
+              "elements": [
+                {
+                  "id": "4eaafdc",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "dfd1861",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "WhatsApp Us",
+                        "link": {
+                          "url": "https://api.whatsapp.com/send?phone=923152850818",
+                          "is_external": true
+                        },
+                        "size": "sm",
+                        "_css_classes": "btn-whatsapp"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "5fee5dc",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "d4d1def",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Request Quote",
+                        "link": {
+                          "url": "/contact",
+                          "is_external": false
+                        },
+                        "size": "sm",
+                        "_css_classes": "btn-brick"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "isInner": false
+      ]
     }
   ]
 }
