@@ -1,0 +1,45 @@
+{
+  "title": "Single Blog Post",
+  "type": "single-post",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_35d22e91",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_ac71a366",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_ef05d502",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Blog Guide",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_f2f0a680",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Practical insights and field guidelines from BrickPoint masonry specialists.</p>"
+              }
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

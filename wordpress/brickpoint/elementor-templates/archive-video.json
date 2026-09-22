@@ -1,0 +1,43 @@
+{
+  "title": "Videos Archive",
+  "type": "archive",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_c625245a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_7d316b60",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_771eb5f1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Inside BrickPoint (Videos)",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_087d2c58",
+              "elType": "widget",
+              "widgetType": "bp_video_showcase",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

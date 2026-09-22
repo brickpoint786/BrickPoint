@@ -1,0 +1,34 @@
+{
+  "title": "Categories Section",
+  "type": "section",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_bf091726",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_15cd4a47",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_31d47704",
+              "elType": "widget",
+              "widgetType": "bp_category_grid",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

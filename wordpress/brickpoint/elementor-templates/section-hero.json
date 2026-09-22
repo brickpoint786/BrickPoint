@@ -1,0 +1,34 @@
+{
+  "title": "Hero Section",
+  "type": "section",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_c5105b5a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_8a13cea2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_594ca197",
+              "elType": "widget",
+              "widgetType": "bp_hero",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "title": "About Us Page",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_4625751a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_16c9c6ce",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_9804e0bb",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "A Construction Materials Partner You Can Build On",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_882b40ea",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>BrickPoint brings together trusted brick manufacturing units and a complete construction-materials range \u2014 so contractors, builders and developers can source with confidence.</p>"
+              }
+            },
+            {
+              "id": "wid_b92e819b",
+              "elType": "widget",
+              "widgetType": "bp_stats_bar",
+              "settings": {}
+            },
+            {
+              "id": "wid_2623af0b",
+              "elType": "widget",
+              "widgetType": "bp_locations_grid",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

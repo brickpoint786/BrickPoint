@@ -1,0 +1,34 @@
+{
+  "title": "WhatsApp CTA Banner Section",
+  "type": "section",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_4bf0bfe9",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_b6a46732",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_fa7ed4e8",
+              "elType": "widget",
+              "widgetType": "bp_whatsapp_cta",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

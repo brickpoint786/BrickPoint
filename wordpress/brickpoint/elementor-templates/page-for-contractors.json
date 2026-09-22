@@ -1,0 +1,51 @@
+{
+  "title": "For Contractors Page",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_276193a7",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_784a17ec",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_ba3d3d62",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Built for Commercial Contractors",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_1e4ea9e4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Bulk material supply, project-based quotations, lab test certificates, and scheduled site drop-offs.</p>"
+              }
+            },
+            {
+              "id": "wid_587d62a2",
+              "elType": "widget",
+              "widgetType": "bp_whatsapp_cta",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

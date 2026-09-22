@@ -1,0 +1,51 @@
+{
+  "title": "For Builders Page",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_ccc842be",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_d9fe4792",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_c4454b72",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Dependable Quality for Residential Builders",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_c7c99d87",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Consistent quality across every batch with multi-category sourcing for housing societies in Lahore.</p>"
+              }
+            },
+            {
+              "id": "wid_123b27f1",
+              "elType": "widget",
+              "widgetType": "bp_whatsapp_cta",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

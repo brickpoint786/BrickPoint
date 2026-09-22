@@ -1,0 +1,51 @@
+{
+  "title": "For Construction Companies Page",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_6fb7ac7f",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_d3330c66",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_3106af1e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Large-Scale Supply for Developers & Companies",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_5ed29ab9",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>High capacity production reserves, documentation compliance, and dedicated procurement account manager.</p>"
+              }
+            },
+            {
+              "id": "wid_706a5015",
+              "elType": "widget",
+              "widgetType": "bp_whatsapp_cta",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

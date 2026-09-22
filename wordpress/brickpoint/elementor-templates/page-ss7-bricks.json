@@ -1,0 +1,46 @@
+{
+  "title": "SS7 Bricks Page",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_c4bfdfc5",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_7031f9fc",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_3c1c0b8f",
+              "elType": "widget",
+              "widgetType": "bp_ss7_showcase",
+              "settings": {}
+            },
+            {
+              "id": "wid_6f8a4f83",
+              "elType": "widget",
+              "widgetType": "bp_specs_table",
+              "settings": {}
+            },
+            {
+              "id": "wid_58be3f89",
+              "elType": "widget",
+              "widgetType": "bp_whatsapp_cta",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

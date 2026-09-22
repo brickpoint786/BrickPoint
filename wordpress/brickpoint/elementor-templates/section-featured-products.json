@@ -1,0 +1,37 @@
+{
+  "title": "Featured Products Section",
+  "type": "section",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_7374b6ea",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_c7b270ff",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_8e511bf7",
+              "elType": "widget",
+              "widgetType": "bp_product_grid",
+              "settings": {
+                "count": 8,
+                "columns": "4"
+              }
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

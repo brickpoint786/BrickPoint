@@ -1,0 +1,34 @@
+{
+  "title": "SS7 Showcase Section",
+  "type": "section",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_5b129bc4",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_6c57d224",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_445c098f",
+              "elType": "widget",
+              "widgetType": "bp_ss7_showcase",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

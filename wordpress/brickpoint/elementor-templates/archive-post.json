@@ -1,0 +1,45 @@
+{
+  "title": "Blog Archive",
+  "type": "archive",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_9fbf37a3",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_59a24bba",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_18358be4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "BrickPoint Knowledge & Guides",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_9b765474",
+              "elType": "widget",
+              "widgetType": "posts",
+              "settings": {
+                "posts_per_page": 6
+              }
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

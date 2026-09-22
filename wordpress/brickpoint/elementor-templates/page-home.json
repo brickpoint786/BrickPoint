@@ -1,0 +1,226 @@
+{
+  "title": "Homepage Template",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_e5d19508",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_f99a1ae1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_85801186",
+              "elType": "widget",
+              "widgetType": "bp_hero",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec_cbb2d794",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_f7b7a8c5",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_f350a949",
+              "elType": "widget",
+              "widgetType": "bp_category_grid",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec_2dc6c42b",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_a7a2f39f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_359aaf3d",
+              "elType": "widget",
+              "widgetType": "bp_ss7_showcase",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec_83de20e8",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_27cca1f6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_443e34e1",
+              "elType": "widget",
+              "widgetType": "bp_product_grid",
+              "settings": {
+                "count": 8,
+                "columns": "4"
+              }
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec_6d0b46ff",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_a9d436c7",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_4f286d2d",
+              "elType": "widget",
+              "widgetType": "bp_video_showcase",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec_bcb4169b",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_121202b9",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_b5c7030e",
+              "elType": "widget",
+              "widgetType": "bp_projects_grid",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec_0e8bd0c2",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_58c48ccf",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_c6bf4101",
+              "elType": "widget",
+              "widgetType": "bp_audience_cards",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec_8dc10bf0",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_82b3c3b6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_f4c90c15",
+              "elType": "widget",
+              "widgetType": "bp_whatsapp_cta",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "title": "Single Product",
+  "type": "single-post",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_e11645eb",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_b092b72d",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "wid_0793b235",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "/wp-content/themes/brickpoint/assets/images/red-stack.png"
+                }
+              }
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col_38184d04",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "wid_8cb10cc4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "SS7 Premium Red Bricks",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_de51eec9",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>High-density burnt clay bricks engineered for strength, uniform shape and durability.</p>"
+              }
+            },
+            {
+              "id": "wid_37b4b814",
+              "elType": "widget",
+              "widgetType": "bp_specs_table",
+              "settings": {}
+            },
+            {
+              "id": "wid_1d217c13",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Order on WhatsApp",
+                "link": {
+                  "url": "https://api.whatsapp.com/send?phone=923152850818"
+                },
+                "button_type": "success"
+              }
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

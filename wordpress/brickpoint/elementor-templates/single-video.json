@@ -1,0 +1,56 @@
+{
+  "title": "Single Video",
+  "type": "single-post",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_ce859a7d",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_b6e2ad59",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_60b979b5",
+              "elType": "widget",
+              "widgetType": "video",
+              "settings": {
+                "video_type": "hosted",
+                "hosted_url": {
+                  "url": "https://videos.pexels.com/video-files/27758012/12218981_3840_2160_25fps.mp4"
+                }
+              }
+            },
+            {
+              "id": "wid_701563a0",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Inside BrickPoint Video",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_fd94d919",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Continuous high-draft kiln chambers, automated brick handling, and quality checks.</p>"
+              }
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

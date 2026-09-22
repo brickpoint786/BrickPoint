@@ -1,0 +1,58 @@
+{
+  "title": "Footer Default",
+  "type": "footer",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_68f8bf5a",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": "bp-footer"
+      },
+      "elements": [
+        {
+          "id": "col_31be2035",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "wid_96c36ae4",
+              "elType": "widget",
+              "widgetType": "bp_footer_logo_widget",
+              "settings": {}
+            },
+            {
+              "id": "wid_65d05c13",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Premium bricks and reliable construction materials for homes, commercial developments, and large-scale building projects.</p>"
+              }
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col_3ffe9344",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "wid_f57e516c",
+              "elType": "widget",
+              "widgetType": "bp_whatsapp_cta",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

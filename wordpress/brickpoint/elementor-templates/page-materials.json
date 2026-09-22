@@ -1,0 +1,52 @@
+{
+  "title": "Construction Materials Page",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_26e42137",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_6de9198f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_085c974f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Complete Construction Materials Range",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_3538d182",
+              "elType": "widget",
+              "widgetType": "bp_category_grid",
+              "settings": {}
+            },
+            {
+              "id": "wid_c89388fc",
+              "elType": "widget",
+              "widgetType": "bp_product_grid",
+              "settings": {
+                "count": 12,
+                "columns": "4"
+              }
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

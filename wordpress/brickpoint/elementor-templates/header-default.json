@@ -1,0 +1,43 @@
+{
+  "title": "Header Default",
+  "type": "header",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_24b25645",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": "bp-header"
+      },
+      "elements": [
+        {
+          "id": "col_adf3afba",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_55d39b68",
+              "elType": "widget",
+              "widgetType": "bp_header_logo_widget",
+              "settings": {}
+            },
+            {
+              "id": "wid_ff6d4650",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "BrickPoint Navigation",
+                "header_size": "h4"
+              }
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Projects Archive",
+  "type": "archive",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_4c8a6cbe",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_65a8e148",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_132d6701",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Project References & Landmarks",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_d2f2da91",
+              "elType": "widget",
+              "widgetType": "bp_projects_grid",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

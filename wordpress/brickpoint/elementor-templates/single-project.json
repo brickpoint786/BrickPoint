@@ -1,0 +1,55 @@
+{
+  "title": "Single Project",
+  "type": "single-post",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_d5b4e5bd",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_ce670aae",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_d07d4344",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Project Reference",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_ca3d36e6",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "/wp-content/themes/brickpoint/assets/images/villa1.png"
+                }
+              }
+            },
+            {
+              "id": "wid_461b7792",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Illustrative construction reference from premier housing societies.</p>"
+              }
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

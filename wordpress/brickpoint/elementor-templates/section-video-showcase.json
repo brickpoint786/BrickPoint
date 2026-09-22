@@ -1,0 +1,34 @@
+{
+  "title": "Video Showcase Section",
+  "type": "section",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_db3be79d",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_3313cf74",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_2024707c",
+              "elType": "widget",
+              "widgetType": "bp_video_showcase",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

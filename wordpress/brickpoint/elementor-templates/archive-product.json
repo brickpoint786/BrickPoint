@@ -1,0 +1,54 @@
+{
+  "title": "Products Archive",
+  "type": "archive",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_48864fa3",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_a43cd69f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_1538ebde",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Products Catalogue",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_89c8043f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Every product with WhatsApp ordering \u2014 no cart, no checkout, just fast quotations.</p>"
+              }
+            },
+            {
+              "id": "wid_179b5b91",
+              "elType": "widget",
+              "widgetType": "bp_product_grid",
+              "settings": {
+                "count": 12,
+                "columns": "4"
+              }
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

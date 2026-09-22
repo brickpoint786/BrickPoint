@@ -1,0 +1,51 @@
+{
+  "title": "Contact Page",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "sec_b47b21a3",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "css_classes": ""
+      },
+      "elements": [
+        {
+          "id": "col_77ed6d40",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wid_8ec0fd77",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Contact & Quotation Request",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "wid_0b59523b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Send your bill of quantities on WhatsApp or call our sales line directly.</p>"
+              }
+            },
+            {
+              "id": "wid_0e69af6a",
+              "elType": "widget",
+              "widgetType": "bp_whatsapp_cta",
+              "settings": {}
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}
