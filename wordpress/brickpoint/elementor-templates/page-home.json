@@ -1,0 +1,1691 @@
+{
+  "title": "Home",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "038a64a",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-hero bp-dark",
+        "background_background": "classic",
+        "background_image": {
+          "url": "/wp-content/themes/brickpoint/assets/images/brick-mason.png",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover"
+      },
+      "elements": [
+        {
+          "id": "796496f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 55,
+            "_css_classes": "bp-hero-text"
+          },
+          "elements": [
+            {
+              "id": "8293398",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Masha Allah \u2022 Fine Bricks \u2022 SS7",
+                "header_size": "p",
+                "align": "left",
+                "_css_classes": "bp-hero-badge"
+              },
+              "elements": []
+            },
+            {
+              "id": "e39efe0",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Building Strength.<br /><span class=\"text-orange\">Delivering Quality.</span><br />Shaping Tomorrow.",
+                "header_size": "h1",
+                "align": "left",
+                "_css_classes": "bp-hero-title font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "37627ca",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Premium bricks and reliable construction materials for homes, commercial developments, and large-scale building projects.</p>",
+                "_css_classes": "bp-hero-sub"
+              },
+              "elements": []
+            },
+            {
+              "id": "3887275",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "bp-hero-cta"
+              },
+              "elements": [
+                {
+                  "id": "a6eaf28",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "eb2f875",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore Products \u2192",
+                        "link": {
+                          "url": "/products",
+                          "is_external": false
+                        },
+                        "size": "md",
+                        "_css_classes": "btn-brick"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "b64c301",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "672a4e9",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Request a Quote",
+                        "link": {
+                          "url": "/contact",
+                          "is_external": false
+                        },
+                        "size": "md",
+                        "_css_classes": "btn-ghost"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "e95f1e1",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 34
+                  },
+                  "elements": [
+                    {
+                      "id": "2d9a930",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "WhatsApp Us",
+                        "link": {
+                          "url": "https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20I%20need%20a%20quotation.",
+                          "is_external": true
+                        },
+                        "size": "md",
+                        "_css_classes": "btn-whatsapp"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "3e8b7dc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class=\"bp-hero-trust-row\"><span>\ud83d\udee1 Quality-focused supply</span><span>\ud83d\ude9a Reliable delivery</span><span>\ud83c\udfed Multiple production locations</span></div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "3be8535",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 45,
+            "_css_classes": "bp-hero-media-wrap"
+          },
+          "elements": [
+            {
+              "id": "0593a87",
+              "elType": "widget",
+              "widgetType": "video",
+              "settings": {
+                "video_type": "hosted",
+                "hosted_url": {
+                  "url": "https://videos.pexels.com/video-files/35411576/15003649_3840_2160_24fps.mp4"
+                },
+                "show_controls": "yes",
+                "_css_classes": "hero-video-frame"
+              },
+              "elements": []
+            },
+            {
+              "id": "324ae47",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "ss7-brick ss7-brick-loop"
+              },
+              "elements": [
+                {
+                  "id": "c24b1d7",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 30
+                  },
+                  "elements": [
+                    {
+                      "id": "984c866",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "/wp-content/themes/brickpoint/assets/images/red-stack.png"
+                        },
+                        "image_size": "thumbnail",
+                        "_css_classes": "bp-ss7-thumb"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "cea8fa7",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 70
+                  },
+                  "elements": [
+                    {
+                      "id": "381fd8a",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u2605 Flagship",
+                        "header_size": "p",
+                        "_css_classes": "bp-flagship-tag text-gold"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "2d7a187",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "SS7 Bricks",
+                        "header_size": "h3",
+                        "_css_classes": "bp-ss7-title font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "7801ec8",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "View SS7 range \u2192",
+                        "link": {
+                          "url": "/ss7-bricks",
+                          "is_external": false
+                        },
+                        "size": "xs",
+                        "_css_classes": "bp-ss7-link"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "91fbda1",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"bp-units-pill\"><p class=\"bp-units-count\">3<span class=\"text-orange\">+</span></p><p class=\"bp-units-label\">Production units</p></div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "5727f23",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "0554bf9",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "44f2111",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 100
+                  },
+                  "elements": [
+                    {
+                      "id": "cd1f389",
+                      "elType": "widget",
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div class=\"bp-marquee-bar\"><div class=\"marquee-track\"><div class=\"marquee-group\"><span><span class=\"bp-dot-orange\"></span>SS7 Bricks</span><span><span class=\"bp-dot-orange\"></span>Cement</span><span><span class=\"bp-dot-orange\"></span>Bajri / Crush</span><span><span class=\"bp-dot-orange\"></span>Sand / Rait</span><span><span class=\"bp-dot-orange\"></span>Steel</span><span><span class=\"bp-dot-orange\"></span>Pipes</span><span><span class=\"bp-dot-orange\"></span>Chemicals</span><span><span class=\"bp-dot-orange\"></span>Cables</span><span><span class=\"bp-dot-orange\"></span>Paints</span><span><span class=\"bp-dot-orange\"></span>Lights</span></div><div class=\"marquee-group\"><span><span class=\"bp-dot-orange\"></span>SS7 Bricks</span><span><span class=\"bp-dot-orange\"></span>Cement</span><span><span class=\"bp-dot-orange\"></span>Bajri / Crush</span><span><span class=\"bp-dot-orange\"></span>Sand / Rait</span><span><span class=\"bp-dot-orange\"></span>Steel</span><span><span class=\"bp-dot-orange\"></span>Pipes</span><span><span class=\"bp-dot-orange\"></span>Chemicals</span><span><span class=\"bp-dot-orange\"></span>Cables</span><span><span class=\"bp-dot-orange\"></span>Paints</span><span><span class=\"bp-dot-orange\"></span>Lights</span></div></div></div>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4273d89",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-trust-section"
+      },
+      "elements": [
+        {
+          "id": "ee79dca",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "fd770ad",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "/wp-content/themes/brickpoint/assets/images/kiln.png"
+                },
+                "image_size": "large",
+                "_css_classes": "bp-trust-media img-zoom"
+              },
+              "elements": []
+            },
+            {
+              "id": "223c071",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "bp-trust-cards-overlay"
+              },
+              "elements": [
+                {
+                  "id": "6735699",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "_css_classes": "bp-glass-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "a2e16b8",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Trusted Supply",
+                        "header_size": "h4",
+                        "_css_classes": "bp-card-h-orange"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "aa44cf7",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"bp-card-sub\">Consistent quality for every order size</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "a01cd1e",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "_css_classes": "bp-glass-card bp-glass-dark"
+                  },
+                  "elements": [
+                    {
+                      "id": "60e9a9f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Bulk Ready",
+                        "header_size": "h4",
+                        "_css_classes": "bp-card-h-white"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "d118c99",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"bp-card-sub-dim\">Contractors & companies welcome</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e57b356",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_css_classes": "bp-trust-content"
+          },
+          "elements": [
+            {
+              "id": "90e565f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Why BrickPoint",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "e385f28",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "A construction-materials partner you can build on",
+                "header_size": "h2",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "d397cb7",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text\">BrickPoint brings together trusted brick manufacturing units and a complete construction-materials range \u2014 so contractors, builders and developers can source with confidence.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "6a3478c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul class=\"bp-check-list\"><li>\u2714 Quality-focused brick manufacturing at multiple bhatta locations</li><li>\u2714 Complete materials range \u2014 from cement and steel to finishes</li><li>\u2714 Project-based quotations with delivery coordination</li><li>\u2714 Direct WhatsApp ordering with fast response</li></ul>"
+              },
+              "elements": []
+            },
+            {
+              "id": "01d797b",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "bp-action-row"
+              },
+              "elements": [
+                {
+                  "id": "ec35df5",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "8a707ae",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "About BrickPoint \u2192",
+                        "link": {
+                          "url": "/about",
+                          "is_external": false
+                        },
+                        "size": "sm",
+                        "_css_classes": "btn-dark"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "157f21d",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "458180e",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Our Locations",
+                        "link": {
+                          "url": "/locations",
+                          "is_external": false
+                        },
+                        "size": "sm",
+                        "_css_classes": "btn-ghost"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cd8343d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-dark"
+      },
+      "elements": [
+        {
+          "id": "3424230",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "da6666e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Product Categories",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "b82a1da",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "One supplier for your complete material list",
+                "header_size": "h2",
+                "align": "center",
+                "_css_classes": "bp-heading-2 bp-head-light font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "26d849c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text bp-head-light-dim\" style=\"text-align:center;\">From flagship SS7 bricks to cement, aggregates, steel, pipes, electricals and finishes.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "a366214",
+              "elType": "widget",
+              "widgetType": "bp_category_grid",
+              "settings": {
+                "count": 12,
+                "columns": "4",
+                "show_description": "yes",
+                "show_arrow": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "c315157",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "View All Categories \u2192",
+                "link": {
+                  "url": "/categories",
+                  "is_external": false
+                },
+                "align": "center",
+                "size": "md",
+                "_css_classes": "btn-ghost"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "edc7cdb",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-ss7-section"
+      },
+      "elements": [
+        {
+          "id": "406e08f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_css_classes": "bp-ss7-content"
+          },
+          "elements": [
+            {
+              "id": "cdd3cb7",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Flagship Product",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "9dd6364",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "The Strength Behind Every Structure",
+                "header_size": "h2",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "db7b8b0",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text\">SS7 Bricks \u2014 our signature range engineered for strength, shape and lasting performance. Ask for specifications, availability and project pricing on WhatsApp.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "c46339e",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "21a09de",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "_css_classes": "bp-spec-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "e420b08",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Size",
+                        "header_size": "p",
+                        "_css_classes": "bp-spec-lbl"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ea450c5",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Standard chamber size",
+                        "header_size": "h4",
+                        "_css_classes": "bp-spec-val"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "0590c13",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "_css_classes": "bp-spec-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "05d91ec",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Type",
+                        "header_size": "p",
+                        "_css_classes": "bp-spec-lbl"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "b8e93f2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Burnt-clay SS7",
+                        "header_size": "h4",
+                        "_css_classes": "bp-spec-val"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "b22d9b4",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "6ff6adf",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "_css_classes": "bp-spec-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "b08b888",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Usage",
+                        "header_size": "p",
+                        "_css_classes": "bp-spec-lbl"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "9ad1166",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Homes \u2022 Commercial \u2022 Boundary",
+                        "header_size": "h4",
+                        "_css_classes": "bp-spec-val"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "0923733",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "_css_classes": "bp-spec-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "1ad75df",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Availability",
+                        "header_size": "p",
+                        "_css_classes": "bp-spec-lbl"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "a52cbdb",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Bulk & retail orders",
+                        "header_size": "h4",
+                        "_css_classes": "bp-spec-val"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "3fcfc32",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "bp-action-row"
+              },
+              "elements": [
+                {
+                  "id": "859ccda",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "c60573c",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Request SS7 Quote",
+                        "link": {
+                          "url": "https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20I%20need%20a%20quotation%20for%20SS7%20Bricks.",
+                          "is_external": true
+                        },
+                        "size": "md",
+                        "_css_classes": "btn-whatsapp"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "f6564c0",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "e6a0dbb",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "View SS7 Page \u2192",
+                        "link": {
+                          "url": "/ss7-bricks",
+                          "is_external": false
+                        },
+                        "size": "md",
+                        "_css_classes": "btn-dark"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4cc2455",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50,
+            "_css_classes": "bp-ss7-gallery-wrap"
+          },
+          "elements": [
+            {
+              "id": "c836bad",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "/wp-content/themes/brickpoint/assets/images/red-stack.png"
+                },
+                "image_size": "large",
+                "_css_classes": "bp-ss7-main-img img-zoom"
+              },
+              "elements": []
+            },
+            {
+              "id": "796004c",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "bp-ss7-thumbs-row"
+              },
+              "elements": [
+                {
+                  "id": "da3dece",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "a0b5035",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "/wp-content/themes/brickpoint/assets/images/stacked.png"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "8a2a5e2",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "c769070",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "/wp-content/themes/brickpoint/assets/images/pile.png"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "fcab401",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 34
+                  },
+                  "elements": [
+                    {
+                      "id": "a7416d8",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "/wp-content/themes/brickpoint/assets/images/worker.png"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1ed5fb",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section"
+      },
+      "elements": [
+        {
+          "id": "1c58ffa",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "798c076",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Featured Products",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "c3ea93f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Materials contractors ask for by name",
+                "header_size": "h2",
+                "align": "center",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "22e1ad6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text\" style=\"text-align:center;\">Live from the product catalogue \u2014 prices, units and WhatsApp ordering on every card.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "063d8aa",
+              "elType": "widget",
+              "widgetType": "bp_product_grid",
+              "settings": {
+                "count": 8,
+                "columns": "4",
+                "featured_only": "yes",
+                "show_price": "yes",
+                "show_whatsapp": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "3dca3db",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Browse All Products \u2192",
+                "link": {
+                  "url": "/products",
+                  "is_external": false
+                },
+                "align": "center",
+                "size": "md",
+                "_css_classes": "btn-brick"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e0c9fe4",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-dark"
+      },
+      "elements": [
+        {
+          "id": "018eac4",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "aeb7f7e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Inside BrickPoint",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "d2676f9",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "See the Strength Behind Every Brick",
+                "header_size": "h2",
+                "_css_classes": "bp-heading-2 bp-head-light font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "afd4336",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text bp-head-light-dim\">Manufacturing, bhattas, quality checks, materials and project references \u2014 on video.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "e85d82e",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "ac5652a",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 65
+                  },
+                  "elements": [
+                    {
+                      "id": "7aa114f",
+                      "elType": "widget",
+                      "widgetType": "video",
+                      "settings": {
+                        "video_type": "hosted",
+                        "hosted_url": {
+                          "url": "https://videos.pexels.com/video-files/27758012/12218981_3840_2160_25fps.mp4"
+                        },
+                        "show_controls": "yes",
+                        "_css_classes": "bp-video-player hero-video-frame"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "a9b4589",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u2605 Featured Facility Video",
+                        "header_size": "p",
+                        "_css_classes": "bp-feat-badge"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "501b6e8",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 35
+                  },
+                  "elements": [
+                    {
+                      "id": "826e4da",
+                      "elType": "widget",
+                      "widgetType": "video",
+                      "settings": {
+                        "video_type": "hosted",
+                        "hosted_url": {
+                          "url": "https://videos.pexels.com/video-files/11355903/11355903-uhd_3840_2160_25fps.mp4"
+                        },
+                        "show_controls": "yes",
+                        "_css_classes": "bp-video-player"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "b8e5f94",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "From the Bhatta to Your Building",
+                        "header_size": "h4",
+                        "_css_classes": "bp-video-sub-tag font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "28f2348",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"bp-video-sub-desc\">Brick preparation, firing, stacking, loading and quality \u2014 the journey of every batch.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "a459528",
+                      "elType": "widget",
+                      "widgetType": "video",
+                      "settings": {
+                        "video_type": "hosted",
+                        "hosted_url": {
+                          "url": "https://videos.pexels.com/video-files/20731372/20731372-uhd_3840_2160_30fps.mp4"
+                        },
+                        "show_controls": "yes",
+                        "_css_classes": "bp-video-player"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "524f737",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Materials That Become Landmarks",
+                        "header_size": "h4",
+                        "_css_classes": "bp-video-sub-tag font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0efa057",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"bp-video-sub-desc\">Illustrative construction references from housing developments and building work.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1e8f08a",
+              "elType": "widget",
+              "widgetType": "bp_video_grid",
+              "settings": {
+                "count": 3,
+                "columns": "3",
+                "show_duration": "yes",
+                "show_badge": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "f66fd33",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "View All Videos \u2192",
+                "link": {
+                  "url": "/videos",
+                  "is_external": false
+                },
+                "align": "center",
+                "size": "md",
+                "_css_classes": "btn-ghost"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0fcf7e",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section"
+      },
+      "elements": [
+        {
+          "id": "8ec6eea",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "41d6fc5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Project References",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "e2e29a9",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Materials that become landmarks",
+                "header_size": "h2",
+                "align": "center",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "ed529a5",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text\" style=\"text-align:center;\">Illustrative construction references from Lahore housing societies and building work.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "f6c5983",
+              "elType": "widget",
+              "widgetType": "bp_project_grid",
+              "settings": {
+                "count": 3,
+                "columns": "3",
+                "show_location": "yes",
+                "show_notice": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "ff542f9",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Explore All Projects \u2192",
+                "link": {
+                  "url": "/projects",
+                  "is_external": false
+                },
+                "align": "center",
+                "size": "md",
+                "_css_classes": "btn-ghost"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "67cde04",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-sand-section"
+      },
+      "elements": [
+        {
+          "id": "210ff2f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "90d0e8e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Who We Serve",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "4d837f5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Built for the way you build",
+                "header_size": "h2",
+                "align": "center",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "7805e93",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text\" style=\"text-align:center;\">Bulk supply, project quotations and coordinated materials \u2014 for every scale of builder.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "bca7025",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "bp-grid cols-3"
+              },
+              "elements": [
+                {
+                  "id": "1e3776d",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_css_classes": "bp-audience-card card-hover"
+                  },
+                  "elements": [
+                    {
+                      "id": "71860a6",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "/wp-content/themes/brickpoint/assets/images/site.png"
+                        },
+                        "_css_classes": "bp-audience-media"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "d4b6b99",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "For Contractors",
+                        "header_size": "h3",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "554a62a",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Bulk material supply, project-based quotations and delivery coordination.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "e07a4a2",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn more \u2192",
+                        "link": {
+                          "url": "/for-contractors"
+                        },
+                        "size": "sm",
+                        "_css_classes": "bp-audience-link"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "06b3104",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_css_classes": "bp-audience-card card-hover"
+                  },
+                  "elements": [
+                    {
+                      "id": "8ce59a0",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "/wp-content/themes/brickpoint/assets/images/bricklayer.png"
+                        },
+                        "_css_classes": "bp-audience-media"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ac2ed11",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "For Builders",
+                        "header_size": "h3",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "d58bafd",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Consistent quality across every batch, with multi-category sourcing.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "cc11b2d",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn more \u2192",
+                        "link": {
+                          "url": "/for-builders"
+                        },
+                        "size": "sm",
+                        "_css_classes": "bp-audience-link"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "4d67ae0",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 34,
+                    "_css_classes": "bp-audience-card card-hover"
+                  },
+                  "elements": [
+                    {
+                      "id": "664a389",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "/wp-content/themes/brickpoint/assets/images/apt.png"
+                        },
+                        "_css_classes": "bp-audience-media"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "f755b2e",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "For Construction Companies",
+                        "header_size": "h3",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "416dad0",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Large-scale supply, documentation and dedicated contact.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "4248191",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn more \u2192",
+                        "link": {
+                          "url": "/for-companies"
+                        },
+                        "size": "sm",
+                        "_css_classes": "bp-audience-link"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6e2da64",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-cta-section",
+        "background_background": "classic",
+        "background_image": {
+          "url": "/wp-content/themes/brickpoint/assets/images/bricklayer.png",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover"
+      },
+      "elements": [
+        {
+          "id": "41dfd4f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 65,
+            "_css_classes": "bp-cta-text"
+          },
+          "elements": [
+            {
+              "id": "da900d8",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Get a fast quotation",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "b6de0a5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Send your material list.<br />We handle the rest.",
+                "header_size": "h2",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "09cdae6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-cta-meta\">\ud83d\udcde 0315 2850818 \u2022 CEO: Syed Iftikhar Haider \u2022 Sales: Qasim Iqbal</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "2951c5b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 35,
+            "_css_classes": "bp-cta-buttons"
+          },
+          "elements": [
+            {
+              "id": "14262f9",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "WhatsApp Your List",
+                "link": {
+                  "url": "https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20Please%20share%20a%20quotation.",
+                  "is_external": true
+                },
+                "size": "lg",
+                "_css_classes": "btn-whatsapp btn-lg"
+              },
+              "elements": []
+            },
+            {
+              "id": "3ad8440",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Request Quote Form",
+                "link": {
+                  "url": "/contact",
+                  "is_external": false
+                },
+                "size": "lg",
+                "_css_classes": "btn-brick btn-lg"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

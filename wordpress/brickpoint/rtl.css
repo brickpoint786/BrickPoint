@@ -1,0 +1,5 @@
+/* RTL Styles */
+body { direction: rtl; unicode-bidi: embed; }
+.bp-topbar-inner, .bp-header-inner, .bp-footer-bottom-inner { flex-direction: row-reverse; }
+.bp-specs-dl dt { text-align: right; }
+.bp-float-wa { right: auto; left: 1.25rem; }

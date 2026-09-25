@@ -1,0 +1,75 @@
+{
+  "title": "Single Video Template",
+  "type": "single-post",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "799d686",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-narrow"
+      },
+      "elements": [
+        {
+          "id": "67f3e5d",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "65124f6",
+              "elType": "widget",
+              "widgetType": "video",
+              "settings": {
+                "video_type": "hosted",
+                "hosted_url": {
+                  "url": "https://videos.pexels.com/video-files/27758012/12218981_3840_2160_25fps.mp4"
+                },
+                "show_controls": "yes",
+                "_css_classes": "hero-video-frame"
+              },
+              "elements": []
+            },
+            {
+              "id": "7189984",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Inside BrickPoint Video",
+                "header_size": "h1",
+                "_css_classes": "font-display bp-mt"
+              },
+              "elements": []
+            },
+            {
+              "id": "1b04554",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Walkthrough of our brick manufacturing plant, clay mixing pits, and continuous coal-firing chambers.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "ca145b2",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "\u2190 Back to Videos",
+                "link": {
+                  "url": "/videos"
+                },
+                "_css_classes": "btn-ghost"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

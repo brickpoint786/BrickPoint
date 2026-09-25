@@ -1,0 +1,524 @@
+{
+  "title": "SS7 Bricks",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "8de54b0",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-hero bp-dark",
+        "background_background": "classic",
+        "background_image": {
+          "url": "/wp-content/themes/brickpoint/assets/images/red-stack.png",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover"
+      },
+      "elements": [
+        {
+          "id": "b90efde",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "5cb31f7",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "\u2605 Flagship Range",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "e959022",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "SS7 <span class=\"text-orange\">Bricks</span>",
+                "header_size": "h1",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "9fa734d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text bp-head-light-dim\">Our signature high-strength brick \u2014 consistent firing, sharp edges and dependable supply for homes, commercial work and boundary structures.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "0ca70a5",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "bp-action-row"
+              },
+              "elements": [
+                {
+                  "id": "88f671b",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "067b561",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Request SS7 Quotation",
+                        "link": {
+                          "url": "https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20I%20need%20a%20quotation%20for%20SS7%20Bricks.",
+                          "is_external": true
+                        },
+                        "size": "lg",
+                        "_css_classes": "btn-whatsapp"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "69b9c75",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "dfe310d",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Browse All Products",
+                        "link": {
+                          "url": "/products",
+                          "is_external": false
+                        },
+                        "size": "lg",
+                        "_css_classes": "btn-ghost"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2ed28d1",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "e713c56",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "/wp-content/themes/brickpoint/assets/images/red-stack.png"
+                },
+                "image_size": "large",
+                "_css_classes": "hero-video-frame ss7-brick-loop"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ddc0581",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section"
+      },
+      "elements": [
+        {
+          "id": "47c255e",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "12d3fbe",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Editable Specifications",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "58600a4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "SS7 at a Glance",
+                "header_size": "h2",
+                "align": "center",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "8ddb064",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Specification fields are editable from the product record \u2014 update size, colour, type, strength, usage, availability and delivery area any time.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "dd8c3b7",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "91ffd42",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "1e3f828",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\ud83d\udccf Size",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "b9e9323",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Standard chamber size (9\" x 4.5\" x 3\")</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "1385179",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "4f29146",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\ud83c\udfa8 Colour",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "d6f28db",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Classic kiln-fired deep red with natural variation</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "4f89d2a",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "51b3e66",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\ud83e\uddf1 Type & Strength",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "46341f3",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Burnt-clay SS7 \u2014 high crushing strength grade (>2000 PSI)</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "acb78d1",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "7cc09ca",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\ud83d\ude9a Usage & Delivery",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "c7ba818",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Homes \u2022 Commercial \u2022 Boundary \u2014 delivery on schedule</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1ed5fb",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section"
+      },
+      "elements": [
+        {
+          "id": "1c58ffa",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "798c076",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Featured Products",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "c3ea93f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Materials contractors ask for by name",
+                "header_size": "h2",
+                "align": "center",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "22e1ad6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text\" style=\"text-align:center;\">Live from the product catalogue \u2014 prices, units and WhatsApp ordering on every card.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "063d8aa",
+              "elType": "widget",
+              "widgetType": "bp_product_grid",
+              "settings": {
+                "count": 8,
+                "columns": "4",
+                "featured_only": "yes",
+                "show_price": "yes",
+                "show_whatsapp": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "3dca3db",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Browse All Products \u2192",
+                "link": {
+                  "url": "/products",
+                  "is_external": false
+                },
+                "align": "center",
+                "size": "md",
+                "_css_classes": "btn-brick"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6e2da64",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-cta-section",
+        "background_background": "classic",
+        "background_image": {
+          "url": "/wp-content/themes/brickpoint/assets/images/bricklayer.png",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover"
+      },
+      "elements": [
+        {
+          "id": "41dfd4f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 65,
+            "_css_classes": "bp-cta-text"
+          },
+          "elements": [
+            {
+              "id": "da900d8",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Get a fast quotation",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "b6de0a5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Send your material list.<br />We handle the rest.",
+                "header_size": "h2",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "09cdae6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-cta-meta\">\ud83d\udcde 0315 2850818 \u2022 CEO: Syed Iftikhar Haider \u2022 Sales: Qasim Iqbal</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "2951c5b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 35,
+            "_css_classes": "bp-cta-buttons"
+          },
+          "elements": [
+            {
+              "id": "14262f9",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "WhatsApp Your List",
+                "link": {
+                  "url": "https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20Please%20share%20a%20quotation.",
+                  "is_external": true
+                },
+                "size": "lg",
+                "_css_classes": "btn-whatsapp btn-lg"
+              },
+              "elements": []
+            },
+            {
+              "id": "3ad8440",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Request Quote Form",
+                "link": {
+                  "url": "/contact",
+                  "is_external": false
+                },
+                "size": "lg",
+                "_css_classes": "btn-brick btn-lg"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

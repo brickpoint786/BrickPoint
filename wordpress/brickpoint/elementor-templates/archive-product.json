@@ -1,0 +1,73 @@
+{
+  "title": "Products Archive Template",
+  "type": "archive",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "231612e",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section"
+      },
+      "elements": [
+        {
+          "id": "58f1ee8",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "816c524",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Catalogue",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "af6a3b6",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "All Products",
+                "header_size": "h1",
+                "align": "center",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "3877eb0",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Every product with WhatsApp ordering \u2014 no cart, no checkout, just fast quotations.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "ed8a2d2",
+              "elType": "widget",
+              "widgetType": "bp_product_grid",
+              "settings": {
+                "count": 12,
+                "columns": "4",
+                "show_price": "yes",
+                "show_whatsapp": "yes"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

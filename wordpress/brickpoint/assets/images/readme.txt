@@ -1,0 +1,1 @@
+Place brand imagery here (logo, hero poster, category banners).

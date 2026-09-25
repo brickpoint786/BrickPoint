@@ -1,0 +1,84 @@
+{
+  "title": "Single Blog Post Template",
+  "type": "single-post",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "13bf73f",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-narrow"
+      },
+      "elements": [
+        {
+          "id": "83224b2",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "fc02427",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Guides & Updates",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "3701503",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Article Title",
+                "header_size": "h1",
+                "_css_classes": "font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "636855d",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "/wp-content/themes/brickpoint/assets/images/brick-mason.png"
+                },
+                "_css_classes": "bp-post-hero-img"
+              },
+              "elements": []
+            },
+            {
+              "id": "c546dc9",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Practical insights and field guidelines from BrickPoint masonry specialists.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "e624a5d",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "\u2190 Back to Blog",
+                "link": {
+                  "url": "/blog"
+                },
+                "_css_classes": "btn-ghost"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Projects Archive Template",
+  "type": "archive",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "35a9097",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section"
+      },
+      "elements": [
+        {
+          "id": "204b1c3",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "23a728e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "References & Inspiration",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "2780e39",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Projects",
+                "header_size": "h1",
+                "align": "center",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "992611b",
+              "elType": "widget",
+              "widgetType": "bp_project_grid",
+              "settings": {
+                "count": 6,
+                "columns": "3",
+                "show_location": "yes",
+                "show_notice": "yes"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

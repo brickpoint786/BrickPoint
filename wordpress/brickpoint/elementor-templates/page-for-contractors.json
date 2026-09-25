@@ -1,0 +1,480 @@
+{
+  "title": "For Contractors",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "cbcbfd5",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-pagehead bp-dark",
+        "background_background": "classic",
+        "background_image": {
+          "url": "/wp-content/themes/brickpoint/assets/images/site.png",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover"
+      },
+      "elements": [
+        {
+          "id": "e601b77",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "dffa5fd",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "For Contractors",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "7cbae86",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Bulk supply that keeps your sites moving",
+                "header_size": "h1",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "0dcc24e",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text bp-head-light-dim\">Project-based quotations, reliable availability and delivery coordination across brick and material categories.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "6bea4cf",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "bp-action-row"
+              },
+              "elements": [
+                {
+                  "id": "bb68716",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "d6c3ae2",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Get Contractor Rates",
+                        "link": {
+                          "url": "https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20I%20am%20a%20contractor%20and%20need%20bulk%20rates.",
+                          "is_external": true
+                        },
+                        "size": "lg",
+                        "_css_classes": "btn-whatsapp"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "a7037e1",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50
+                  },
+                  "elements": [
+                    {
+                      "id": "7eae197",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Browse Products",
+                        "link": {
+                          "url": "/products"
+                        },
+                        "size": "lg",
+                        "_css_classes": "btn-ghost"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c95d515",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section"
+      },
+      "elements": [
+        {
+          "id": "417389b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "da1ac0f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Contractor Benefits",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "d64de1d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Why Contractors Choose BrickPoint",
+                "header_size": "h2",
+                "align": "center",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "d3d33f9",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "eddbe70",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "f2eed1d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u2714 Bulk material supply",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "30cc6c9",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Trolley, thousand-brick and tonnage quantities with sorted batches.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "e9b3f27",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "23b9566",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u2714 Project-based quotations",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "f67f473",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Send your BOQ or stage list \u2014 get one consolidated quote.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "0fcb45c",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 34,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "bd308c2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u2714 Delivery coordination",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "c82e38c",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Schedule deliveries stage-wise with site-location planning.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4910710",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "1d766b8",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "ed1ef4d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u2714 Reliable availability",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "742d7f8",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Multiple bhatta units back consistent brick supply.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "563395c",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "636888d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u2714 Full category range",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "a605f3d",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Bricks, cement, aggregates, steel, pipes, electricals, finishes.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "890f96a",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 34,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "f1d1ec1",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u2714 Direct WhatsApp line",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ab78e5b",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Fast answers on rates, stock and delivery slots.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6e2da64",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-cta-section",
+        "background_background": "classic",
+        "background_image": {
+          "url": "/wp-content/themes/brickpoint/assets/images/bricklayer.png",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover"
+      },
+      "elements": [
+        {
+          "id": "41dfd4f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 65,
+            "_css_classes": "bp-cta-text"
+          },
+          "elements": [
+            {
+              "id": "da900d8",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Get a fast quotation",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "b6de0a5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Send your material list.<br />We handle the rest.",
+                "header_size": "h2",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "09cdae6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-cta-meta\">\ud83d\udcde 0315 2850818 \u2022 CEO: Syed Iftikhar Haider \u2022 Sales: Qasim Iqbal</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "2951c5b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 35,
+            "_css_classes": "bp-cta-buttons"
+          },
+          "elements": [
+            {
+              "id": "14262f9",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "WhatsApp Your List",
+                "link": {
+                  "url": "https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20Please%20share%20a%20quotation.",
+                  "is_external": true
+                },
+                "size": "lg",
+                "_css_classes": "btn-whatsapp btn-lg"
+              },
+              "elements": []
+            },
+            {
+              "id": "3ad8440",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Request Quote Form",
+                "link": {
+                  "url": "/contact",
+                  "is_external": false
+                },
+                "size": "lg",
+                "_css_classes": "btn-brick btn-lg"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

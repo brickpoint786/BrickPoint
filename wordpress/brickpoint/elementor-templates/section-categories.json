@@ -1,0 +1,89 @@
+{
+  "title": "Modular Categories Section",
+  "type": "section",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "cd8343d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-dark"
+      },
+      "elements": [
+        {
+          "id": "3424230",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "da6666e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Product Categories",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "b82a1da",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "One supplier for your complete material list",
+                "header_size": "h2",
+                "align": "center",
+                "_css_classes": "bp-heading-2 bp-head-light font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "26d849c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text bp-head-light-dim\" style=\"text-align:center;\">From flagship SS7 bricks to cement, aggregates, steel, pipes, electricals and finishes.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "a366214",
+              "elType": "widget",
+              "widgetType": "bp_category_grid",
+              "settings": {
+                "count": 12,
+                "columns": "4",
+                "show_description": "yes",
+                "show_arrow": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "c315157",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "View All Categories \u2192",
+                "link": {
+                  "url": "/categories",
+                  "is_external": false
+                },
+                "align": "center",
+                "size": "md",
+                "_css_classes": "btn-ghost"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,691 @@
+{
+  "title": "About Us",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "5f3e04c",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-pagehead bp-dark",
+        "background_background": "classic",
+        "background_image": {
+          "url": "/wp-content/themes/brickpoint/assets/images/bricklayer.png",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover"
+      },
+      "elements": [
+        {
+          "id": "cacf79a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "5a65f8a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Story",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "1388700",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "BrickPoint \u2014 strength you can build on",
+                "header_size": "h1",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "6b5c554",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text bp-head-light-dim\">A construction-materials supplier bringing together trusted brick manufacturing units and a complete building-materials range for contractors, builders, developers and individual customers.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "47ef466",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section"
+      },
+      "elements": [
+        {
+          "id": "99ac836",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "c89f88d",
+              "elType": "widget",
+              "widgetType": "video",
+              "settings": {
+                "video_type": "hosted",
+                "hosted_url": {
+                  "url": "https://videos.pexels.com/video-files/11355903/11355903-uhd_3840_2160_25fps.mp4"
+                },
+                "show_controls": "yes",
+                "_css_classes": "hero-video-frame"
+              },
+              "elements": []
+            },
+            {
+              "id": "009fa77",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;font-size:0.85rem;color:#6b6560;\">Company video \u2014 manufacturing and site work</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "36cfd23",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "96df947",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Brand Story",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "ca2ff14",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "From bhatta kilns to landmark buildings",
+                "header_size": "h2",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "38a32bc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text\">BrickPoint unites Masha Allah Bricks Company, Fine Bricks Company and the SS7 Bricks range with a full construction-materials catalogue \u2014 so every customer, from a single-home builder to a large developer, can source reliably from one supplier.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "290d6c2",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "1c67aea",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "5338ac3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\ud83c\udfaf Mission",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "9770425",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Reliable, quality materials with honest quotations.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "fd6335a",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "a9acd71",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\ud83d\udc41 Vision",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "12ff220",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>The trusted materials partner for every project scale.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "47b14c8",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 34,
+                    "_css_classes": "bp-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "a49cb7c",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u2764 Values",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "4693302",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Quality, consistency and responsive service.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4fdaa18",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-sand-section"
+      },
+      "elements": [
+        {
+          "id": "fcdf84d",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "2ad7ed6",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Capabilities",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "8da2a3c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "What We Supply",
+                "header_size": "h2",
+                "align": "center",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "8cd28de",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "1ead682",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "_css_classes": "bp-box bp-dark"
+                  },
+                  "elements": [
+                    {
+                      "id": "49b1a65",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\ud83c\udfed Brick Manufacturing",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "fb176c5",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Multiple bhatta locations producing burnt-clay and SS7 bricks.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "62edd56",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "_css_classes": "bp-box bp-dark"
+                  },
+                  "elements": [
+                    {
+                      "id": "211a53a",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\ud83d\udee1 Quality Commitment",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "97fcb68",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Sorted batches, consistent firing and honest grading.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "27dd3a8",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "_css_classes": "bp-box bp-dark"
+                  },
+                  "elements": [
+                    {
+                      "id": "bf1e8b8",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\ud83d\udc65 All Customer Sizes",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "06dcc80",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Individual home builders to contractors and companies.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "36f6a75",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "_css_classes": "bp-box bp-dark"
+                  },
+                  "elements": [
+                    {
+                      "id": "03cf390",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\ud83d\ude9a Project Support",
+                        "header_size": "h4",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ed64c0c",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Stage-wise quotations and delivery coordination.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5af56d9",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section"
+      },
+      "elements": [
+        {
+          "id": "285de4d",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "985626f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Management",
+                "header_size": "p",
+                "align": "center",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "d9c68bd",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Leadership",
+                "header_size": "h2",
+                "align": "center",
+                "_css_classes": "bp-heading-2 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "a24646a",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Direct access to decision-makers \u2014 no layers between you and your quotation.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "26b4cf8",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "f3d1192",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "_css_classes": "bp-card p-6"
+                  },
+                  "elements": [
+                    {
+                      "id": "f193330",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "/wp-content/themes/brickpoint/assets/images/worker.png"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "b117b28",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Syed Iftikhar Haider",
+                        "header_size": "h3",
+                        "align": "center",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "516d135",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Chief Executive Officer",
+                        "header_size": "p",
+                        "align": "center",
+                        "_css_classes": "text-orange"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bed942b",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center;\">BrickPoint \u2022 0315 2850818</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "b08aacb",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "_css_classes": "bp-card p-6"
+                  },
+                  "elements": [
+                    {
+                      "id": "59b373d",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "/wp-content/themes/brickpoint/assets/images/brick-mason.png"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "5997daa",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Qasim Iqbal",
+                        "header_size": "h3",
+                        "align": "center",
+                        "_css_classes": "font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "88c2eec",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Sales Manager",
+                        "header_size": "p",
+                        "align": "center",
+                        "_css_classes": "text-orange"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "af000cd",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"text-align:center;\">BrickPoint \u2022 0315 2850818</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "f13ca41",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "_css_classes": "bp-center"
+              },
+              "elements": [
+                {
+                  "id": "1b0e177",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "2527a1c",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "View Products \u2192",
+                        "link": {
+                          "url": "/products"
+                        },
+                        "size": "md",
+                        "_css_classes": "btn-brick"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "7252179",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33
+                  },
+                  "elements": [
+                    {
+                      "id": "720b8be",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Contact Us",
+                        "link": {
+                          "url": "/contact"
+                        },
+                        "size": "md",
+                        "_css_classes": "btn-ghost"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "bf2d1d1",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 34
+                  },
+                  "elements": [
+                    {
+                      "id": "3523454",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Our Locations",
+                        "link": {
+                          "url": "/locations"
+                        },
+                        "size": "md",
+                        "_css_classes": "btn-ghost"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

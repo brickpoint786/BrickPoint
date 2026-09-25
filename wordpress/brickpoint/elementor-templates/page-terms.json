@@ -1,0 +1,48 @@
+{
+  "title": "Terms & Conditions",
+  "type": "page",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "9a2eb20",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-container"
+      },
+      "elements": [
+        {
+          "id": "a50b818",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "b2fe5c2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Terms & Conditions",
+                "header_size": "h1",
+                "_css_classes": "font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "7212d94",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>All brick and construction material quotations provided by BrickPoint are subject to site access, unloading feasibility, and prevailing market rates for raw ingredients. Quoted rates remain valid for the period specified on formal quotation slips.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "title": "Single Product Template",
+  "type": "single-post",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "5f7454a",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-product-layout"
+      },
+      "elements": [
+        {
+          "id": "d22c581",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "f40d173",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "/wp-content/themes/brickpoint/assets/images/red-stack.png"
+                },
+                "image_size": "large",
+                "_css_classes": "bp-product-hero-media img-zoom"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "db11154",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "bfbd2d1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Product Title",
+                "header_size": "h1",
+                "_css_classes": "font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "0284efc",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Price on Request",
+                "header_size": "h3",
+                "_css_classes": "bp-price-main text-orange"
+              },
+              "elements": []
+            },
+            {
+              "id": "cb90ee8",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>High-grade construction material manufactured and tested according to Pakistani building standards.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "90f92f5",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Order on WhatsApp",
+                "link": {
+                  "url": "https://api.whatsapp.com/send?phone=923152850818",
+                  "is_external": true
+                },
+                "size": "lg",
+                "_css_classes": "btn-whatsapp btn-block"
+              },
+              "elements": []
+            },
+            {
+              "id": "ca12177",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Call for Rate",
+                "link": {
+                  "url": "tel:03152850818",
+                  "is_external": false
+                },
+                "size": "md",
+                "_css_classes": "btn-ghost btn-block"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6e2da64",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-cta-section",
+        "background_background": "classic",
+        "background_image": {
+          "url": "/wp-content/themes/brickpoint/assets/images/bricklayer.png",
+          "id": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover"
+      },
+      "elements": [
+        {
+          "id": "41dfd4f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 65,
+            "_css_classes": "bp-cta-text"
+          },
+          "elements": [
+            {
+              "id": "da900d8",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Get a fast quotation",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "b6de0a5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Send your material list.<br />We handle the rest.",
+                "header_size": "h2",
+                "_css_classes": "bp-heading-1 font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "09cdae6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-cta-meta\">\ud83d\udcde 0315 2850818 \u2022 CEO: Syed Iftikhar Haider \u2022 Sales: Qasim Iqbal</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "2951c5b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 35,
+            "_css_classes": "bp-cta-buttons"
+          },
+          "elements": [
+            {
+              "id": "14262f9",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "WhatsApp Your List",
+                "link": {
+                  "url": "https://api.whatsapp.com/send?phone=923152850818&text=Assalam-o-Alaikum%20BrickPoint%2C%20Please%20share%20a%20quotation.",
+                  "is_external": true
+                },
+                "size": "lg",
+                "_css_classes": "btn-whatsapp btn-lg"
+              },
+              "elements": []
+            },
+            {
+              "id": "3ad8440",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Request Quote Form",
+                "link": {
+                  "url": "/contact",
+                  "is_external": false
+                },
+                "size": "lg",
+                "_css_classes": "btn-brick btn-lg"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

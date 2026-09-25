@@ -1,0 +1,210 @@
+{
+  "title": "Modular Video Showcase Section",
+  "type": "section",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "e0c9fe4",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "_css_classes": "bp-section bp-dark"
+      },
+      "elements": [
+        {
+          "id": "018eac4",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "aeb7f7e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Inside BrickPoint",
+                "header_size": "p",
+                "_css_classes": "bp-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "d2676f9",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "See the Strength Behind Every Brick",
+                "header_size": "h2",
+                "_css_classes": "bp-heading-2 bp-head-light font-display"
+              },
+              "elements": []
+            },
+            {
+              "id": "afd4336",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p class=\"bp-body-text bp-head-light-dim\">Manufacturing, bhattas, quality checks, materials and project references \u2014 on video.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "e85d82e",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed"
+              },
+              "elements": [
+                {
+                  "id": "ac5652a",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 65
+                  },
+                  "elements": [
+                    {
+                      "id": "7aa114f",
+                      "elType": "widget",
+                      "widgetType": "video",
+                      "settings": {
+                        "video_type": "hosted",
+                        "hosted_url": {
+                          "url": "https://videos.pexels.com/video-files/27758012/12218981_3840_2160_25fps.mp4"
+                        },
+                        "show_controls": "yes",
+                        "_css_classes": "bp-video-player hero-video-frame"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "a9b4589",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "\u2605 Featured Facility Video",
+                        "header_size": "p",
+                        "_css_classes": "bp-feat-badge"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "501b6e8",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 35
+                  },
+                  "elements": [
+                    {
+                      "id": "826e4da",
+                      "elType": "widget",
+                      "widgetType": "video",
+                      "settings": {
+                        "video_type": "hosted",
+                        "hosted_url": {
+                          "url": "https://videos.pexels.com/video-files/11355903/11355903-uhd_3840_2160_25fps.mp4"
+                        },
+                        "show_controls": "yes",
+                        "_css_classes": "bp-video-player"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "b8e5f94",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "From the Bhatta to Your Building",
+                        "header_size": "h4",
+                        "_css_classes": "bp-video-sub-tag font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "28f2348",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"bp-video-sub-desc\">Brick preparation, firing, stacking, loading and quality \u2014 the journey of every batch.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "a459528",
+                      "elType": "widget",
+                      "widgetType": "video",
+                      "settings": {
+                        "video_type": "hosted",
+                        "hosted_url": {
+                          "url": "https://videos.pexels.com/video-files/20731372/20731372-uhd_3840_2160_30fps.mp4"
+                        },
+                        "show_controls": "yes",
+                        "_css_classes": "bp-video-player"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "524f737",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Materials That Become Landmarks",
+                        "header_size": "h4",
+                        "_css_classes": "bp-video-sub-tag font-display"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0efa057",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p class=\"bp-video-sub-desc\">Illustrative construction references from housing developments and building work.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1e8f08a",
+              "elType": "widget",
+              "widgetType": "bp_video_grid",
+              "settings": {
+                "count": 3,
+                "columns": "3",
+                "show_duration": "yes",
+                "show_badge": "yes"
+              },
+              "elements": []
+            },
+            {
+              "id": "f66fd33",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "View All Videos \u2192",
+                "link": {
+                  "url": "/videos",
+                  "is_external": false
+                },
+                "align": "center",
+                "size": "md",
+                "_css_classes": "btn-ghost"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
